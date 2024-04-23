@@ -2,9 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 
 def hae_veikattu_lista():
-    return ["Hjk", "Kups", "Inter", "Sjk", "FC Lahti", "Ilves", "FC Haka", "Vps", "AC Oulu", "Gnistan", "Ifk Mariehamn", "Eif"]
+    """Palauttaa listan veikatuista joukkueista sarjajärjestyksessä."""
+    return ["HJK", "KuPS", "Inter", "SJK", "FC Lahti", "Ilves", "FC Haka", "VPS", "AC Oulu", "Gnistan", "IFK Mariehamn", "EIF"]
 
 def hae_sarjataulukko():
+    """Hakee ja palauttaa sarjataulukon veikkausliiga.com sivustolta."""
     try:
         sarjataulukko_url = 'https://www.veikkausliiga.com/tilastot/2024/veikkausliiga/joukkueet/'
         response = requests.get(sarjataulukko_url)
@@ -23,6 +25,7 @@ def hae_sarjataulukko():
         return None
 
 def hae_pelaajan_pisteet():
+    """Hakee ja palauttaa tiettyjen pelaajien pisteet veikkausliiga.com sivustolta."""
     try:
         url = 'https://www.veikkausliiga.com/tilastot/2024/veikkausliiga/pelaajat/'
         response = requests.get(url)
@@ -41,9 +44,9 @@ def hae_pelaajan_pisteet():
                 if nimi_solu in etsittavat_pelaajat:
                     maalit = int(solut[5].get_text().strip())
                     laukaukset = int(solut[6].get_text().strip())
-                    maalisyotot = int(float(solut[9].get_text().strip().replace(',', '.')))
+                    maalisyötöt = int(float(solut[9].get_text().strip().replace(',', '.')))
                     punaiset_kortit = int(solut[15].get_text().strip())
-                    pisteet = (maalit * 2) + (laukaukset * 0.1) + (maalisyotot * 0.5) - (punaiset_kortit * 1)
+                    pisteet = (maalit * 2) + (laukaukset * 0.1) + (maalisyötöt * 0.5) - (punaiset_kortit * 1)
                     pelaajat_pisteet.append((nimi_solu, pisteet))
                     kokonaispisteet_pelaajat += pisteet
         return pelaajat_pisteet, kokonaispisteet_pelaajat
@@ -52,6 +55,7 @@ def hae_pelaajan_pisteet():
         return [], 0
 
 def laske_joukkueiden_pisteet(sarjataulukko, veikatut_joukkueet):
+    """Laskee pisteet perustuen veikattujen joukkueiden sijoitukseen sarjataulukossa."""
     kokonaispisteet = 0
     for rivi in sarjataulukko:
         joukkue = rivi[1]
@@ -61,10 +65,12 @@ def laske_joukkueiden_pisteet(sarjataulukko, veikatut_joukkueet):
     return kokonaispisteet
 
 def tallenna_tulokset(sarjataulukko, pelaajat_pisteet, joukkuepisteet, kokonaispisteet_pelaajat):
+    """Tallentaa sarjataulukon ja pelaajien pisteet markdown-muodossa tiedostoon."""
+    veikatut_joukkueet = hae_veikattu_lista()
     with open('Tilastot.md', 'w') as file:
         file.write("# Sarjataulukko\n")
-        file.write("| Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Pisteet |\n")
-        file.write("|----------|---------|---------|--------|-----------|---------|----------------|-------------------|----------|---------|\n")
+        file.write("| Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Syötöt |\n")
+        file.write("|----------|---------|---------|--------|-----------|---------|----------------|-------------------|----------|-------|\n")
         for rivi in sarjataulukko:
             file.write("|" + " | ".join(rivi) + "|\n")
         file.write("\n# Pelaajien pisteet\n")
@@ -73,8 +79,14 @@ def tallenna_tulokset(sarjataulukko, pelaajat_pisteet, joukkuepisteet, kokonaisp
         file.write(f'\n**Kokonaispisteet joukkueille: {joukkuepisteet}**\n')
         file.write(f'\n**Kokonaispisteet pelaajille: {kokonaispisteet_pelaajat}**\n')
         file.write(f'\n**Yhteispisteet: {joukkuepisteet + kokonaispisteet_pelaajat}**\n')
+        file.write("\n# Veikattu Sarjataulukko\n")
+        file.write("| Sijoitus | Joukkue |\n")
+        file.write("|----------|---------|\n")
+        for idx, joukkue in enumerate(veikatut_joukkueet, start=1):
+            file.write(f"| {idx} | {joukkue} |\n")
 
 def main():
+    """Pääfunktio, joka suorittaa sarjataulukon, pelaajien pisteiden haun ja tallentaa tulokset."""
     veikatut_joukkueet = hae_veikattu_lista()
     sarjataulukko = hae_sarjataulukko()
     pelaajat_pisteet, kokonaispisteet_pelaajat = hae_pelaajan_pisteet()
