@@ -32,22 +32,24 @@ def hae_pelaajan_pisteet():
 
         etsittavat_pelaajat = ["Coffey, Ashley Mark", "Moreno Ciorciari, Jaime Jose", "Karjalainen, Rasmus", "Plange, Luke Elliot", "Odutayo, Colin"]
         pelaajat_pisteet = []
+        kokonaispisteet_pelaajat = 0
 
         for rivi in taulukko_rivit:
             solut = rivi.find_all('td')
             if solut and len(solut) > 15:
                 nimi_solu = solut[1].get_text().strip()
-                if any(nimi == nimi_solu for nimi in etsittavat_pelaajat):
+                if nimi_solu in etsittavat_pelaajat:
                     maalit = int(solut[5].get_text().strip())
                     laukaukset = int(solut[6].get_text().strip())
                     maalisyotot = int(float(solut[9].get_text().strip().replace(',', '.')))
                     punaiset_kortit = int(solut[15].get_text().strip())
                     pisteet = (maalit * 2) + (laukaukset * 0.1) + (maalisyotot * 0.5) - (punaiset_kortit * 1)
                     pelaajat_pisteet.append((nimi_solu, pisteet))
-        return pelaajat_pisteet
+                    kokonaispisteet_pelaajat += pisteet
+        return pelaajat_pisteet, kokonaispisteet_pelaajat
     except Exception as e:
         print("Pelaajatietojen haku epäonnistui:", e)
-        return []
+        return [], 0
 
 def laske_joukkueiden_pisteet(sarjataulukko, veikatut_joukkueet):
     kokonaispisteet = 0
@@ -58,7 +60,7 @@ def laske_joukkueiden_pisteet(sarjataulukko, veikatut_joukkueet):
             kokonaispisteet += 1
     return kokonaispisteet
 
-def tallenna_tulokset(sarjataulukko, pelaajat_pisteet, joukkuepisteet):
+def tallenna_tulokset(sarjataulukko, pelaajat_pisteet, joukkuepisteet, kokonaispisteet_pelaajat):
     with open('Tilastot.md', 'w') as file:
         file.write("# Sarjataulukko\n")
         file.write("| Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Pisteet |\n")
@@ -69,14 +71,16 @@ def tallenna_tulokset(sarjataulukko, pelaajat_pisteet, joukkuepisteet):
         for nimi, pisteet in pelaajat_pisteet:
             file.write(f'* {nimi}: {pisteet:.1f} pistettä\n')
         file.write(f'\n**Kokonaispisteet joukkueille: {joukkuepisteet}**\n')
+        file.write(f'\n**Kokonaispisteet pelaajille: {kokonaispisteet_pelaajat}**\n')
+        file.write(f'\n**Yhteispisteet: {joukkuepisteet + kokonaispisteet_pelaajat}**\n')
 
 def main():
     veikatut_joukkueet = hae_veikattu_lista()
     sarjataulukko = hae_sarjataulukko()
-    pelaajat_pisteet = hae_pelaajan_pisteet()
+    pelaajat_pisteet, kokonaispisteet_pelaajat = hae_pelaajan_pisteet()
     if sarjataulukko:
         joukkuepisteet = laske_joukkueiden_pisteet(sarjataulukko, veikatut_joukkueet)
-        tallenna_tulokset(sarjataulukko, pelaajat_pisteet, joukkuepisteet)
+        tallenna_tulokset(sarjataulukko, pelaajat_pisteet, joukkuepisteet, kokonaispisteet_pelaajat)
 
 if __name__ == "__main__":
     main()
