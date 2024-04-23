@@ -23,3 +23,7 @@
 * Plange, Luke Elliot: 1.5 pistettä
 
 **Kokonaispisteet joukkueille: 1**
+
+**Kokonaispisteet pelaajille: 10.3**
+
+**Yhteispisteet: 11.3**
