@@ -2,7 +2,7 @@ name: Run Python Script Daily at 15:00 UTC
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # Suorittaa workflow'n joka päivä kello 15:00 UTC
+    - cron: '0 22 * * *'  # Suorittaa workflow'n joka päivä kello 22:00 UTC
   workflow_dispatch:  # Mahdollistaa manuaalisen suorituksen GitHubin käyttöliittymästä
 
 jobs:
@@ -33,6 +33,6 @@ jobs:
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add Tilastot.txt
-            git commit -m "Update Tilastot.txt"
+            git commit -m "Update Tilastot.md"
             git push
 
