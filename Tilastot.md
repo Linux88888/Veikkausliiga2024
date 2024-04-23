@@ -1,40 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Veikkausliiga Tilastot</title>
-<style>table, th, td {border: 1px solid black; border-collapse: collapse; padding: 8px;} th {background-color: lightgray;}</style>
-</head>
-<body>
+# Sarjataulukko
+| Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Pisteet |
+|----------|---------|---------|--------|-----------|---------|----------------|-------------------|----------|---------|
+| #. | Joukkue | O | V | T | H | TM | PM | ME | S | L | L% | R | KK | PK | PA | P |
+| 1. | VPS | 3 | 2 | 1 | 0 | 6 | 4 | 2 | 5 | 31 | 19,35 | 32 | 4 | 0 | 8 | 7 |
+| 2. | SJK | 3 | 2 | 1 | 0 | 4 | 2 | 2 | 2 | 37 | 10,81 | 42 | 5 | 0 | 4 | 7 |
+| 3. | HJK | 3 | 2 | 0 | 1 | 7 | 4 | 3 | 6 | 50 | 14,00 | 43 | 6 | 0 | 5 | 6 |
+| 4. | Gnistan | 3 | 2 | 0 | 1 | 10 | 8 | 2 | 6 | 21 | 47,62 | 55 | 12 | 0 | 2 | 6 |
+| 5. | KuPS | 3 | 1 | 2 | 0 | 6 | 4 | 2 | 4 | 34 | 17,65 | 37 | 5 | 0 | 4 | 5 |
+| 6. | IFK Mariehamn | 3 | 1 | 1 | 1 | 6 | 6 | 0 | 0 | 26 | 23,08 | 36 | 8 | 0 | 1 | 4 |
+| <font color='green'>7.</font> | <font color='green'>FC Haka</font> | 3 | 1 | 1 | 1 | 4 | 4 | 0 | 4 | 29 | 13,79 | 37 | 7 | 1 | 8 | 4 |
+| 8. | AC Oulu | 3 | 0 | 2 | 1 | 5 | 6 | -1 | 4 | 36 | 13,89 | 41 | 9 | 0 | 6 | 2 |
+| 9. | FC Inter | 3 | 0 | 2 | 1 | 5 | 6 | -1 | 4 | 27 | 18,52 | 29 | 7 | 0 | 8 | 2 |
+| 10. | FC Lahti | 3 | 0 | 2 | 1 | 1 | 5 | -4 | 0 | 35 | 2,86 | 22 | 5 | 0 | 6 | 2 |
+| 11. | EIF | 3 | 0 | 1 | 2 | 4 | 6 | -2 | 3 | 22 | 18,18 | 34 | 9 | 0 | 2 | 1 |
+| 12. | Ilves | 3 | 0 | 1 | 2 | 4 | 7 | -3 | 4 | 46 | 8,70 | 39 | 10 | 1 | 2 | 1 |
 
-Sarjataulukko:
-<tr><td>#</td><td>Joukkue (O ottelua) - Voitot: V, Tasapelit: T, Tappiot: H, Tehdyt maalit: TM, Päästetyt maalit: PM, Maaliero: ME, Pisteet: S</td></tr>
-<tr><td>1.</td><td>VPS (3 ottelua) - Voitot: 2, Tasapelit: 1, Tappiot: 0, Tehdyt maalit: 6, Päästetyt maalit: 4, Maaliero: 2, Pisteet: 5</td></tr>
-<tr><td>2.</td><td>SJK (3 ottelua) - Voitot: 2, Tasapelit: 1, Tappiot: 0, Tehdyt maalit: 4, Päästetyt maalit: 2, Maaliero: 2, Pisteet: 2</td></tr>
-<tr><td>3.</td><td>HJK (3 ottelua) - Voitot: 2, Tasapelit: 0, Tappiot: 1, Tehdyt maalit: 7, Päästetyt maalit: 4, Maaliero: 3, Pisteet: 6</td></tr>
-<tr><td>4.</td><td>Gnistan (3 ottelua) - Voitot: 2, Tasapelit: 0, Tappiot: 1, Tehdyt maalit: 10, Päästetyt maalit: 8, Maaliero: 2, Pisteet: 6</td></tr>
-<tr><td>5.</td><td>KuPS (3 ottelua) - Voitot: 1, Tasapelit: 2, Tappiot: 0, Tehdyt maalit: 6, Päästetyt maalit: 4, Maaliero: 2, Pisteet: 4</td></tr>
-<tr><td>6.</td><td>IFK Mariehamn (3 ottelua) - Voitot: 1, Tasapelit: 1, Tappiot: 1, Tehdyt maalit: 6, Päästetyt maalit: 6, Maaliero: 0, Pisteet: 0</td></tr>
-<tr style="background-color: lightgreen;"><td>7.</td><td>FC Haka (3 ottelua) - Voitot: 1, Tasapelit: 1, Tappiot: 1, Tehdyt maalit: 4, Päästetyt maalit: 4, Maaliero: 0, Pisteet: 4</td></tr>
-<tr><td>8.</td><td>AC Oulu (3 ottelua) - Voitot: 0, Tasapelit: 2, Tappiot: 1, Tehdyt maalit: 5, Päästetyt maalit: 6, Maaliero: -1, Pisteet: 4</td></tr>
-<tr><td>9.</td><td>FC Inter (3 ottelua) - Voitot: 0, Tasapelit: 2, Tappiot: 1, Tehdyt maalit: 5, Päästetyt maalit: 6, Maaliero: -1, Pisteet: 4</td></tr>
-<tr><td>10.</td><td>FC Lahti (3 ottelua) - Voitot: 0, Tasapelit: 2, Tappiot: 1, Tehdyt maalit: 1, Päästetyt maalit: 5, Maaliero: -4, Pisteet: 0</td></tr>
-<tr><td>11.</td><td>EIF (3 ottelua) - Voitot: 0, Tasapelit: 1, Tappiot: 2, Tehdyt maalit: 4, Päästetyt maalit: 6, Maaliero: -2, Pisteet: 3</td></tr>
-<tr><td>12.</td><td>Ilves (3 ottelua) - Voitot: 0, Tasapelit: 1, Tappiot: 2, Tehdyt maalit: 4, Päästetyt maalit: 7, Maaliero: -3, Pisteet: 4</td></tr>
-
-Pelaajien pisteet:
-Coffey, Ashley Mark: 3.0 pistettä (maalit: 1, laukaukset: 10, maalisyötöt: 0, punaiset kortit: -0)
-Karjalainen, Rasmus: 0.5 pistettä (maalit: 0, laukaukset: 5, maalisyötöt: 0, punaiset kortit: -0)
-Moreno Ciorciari, Jaime Jose: 4.4 pistettä (maalit: 2, laukaukset: 4, maalisyötöt: 0, punaiset kortit: -0)
-Odutayo, Colin: 0.9 pistettä (maalit: 0, laukaukset: 9, maalisyötöt: 0, punaiset kortit: -0)
-Plange, Luke Elliot: 1.5 pistettä (maalit: 0, laukaukset: 5, maalisyötöt: 2, punaiset kortit: -0)
-
-Kokonaispisteet pelaajille: 10.3
-
-Sarjataulukon joukkueiden pisteet:
-FC Haka: 1 piste
-
-Kokonaispisteet joukkueille: 1
-
-<p>Kokonaispisteet: 11.3</p>
-</body>
-</html>
+**Yhteispisteet: 1**
