@@ -22,4 +22,4 @@ jobs:
         pip install requests beautifulsoup4  # Asenna tarvittavat riippuvuudet
 
     - name: Run the script
-       run: python scripts/fetch_stats.py  # Osoittaa juuri luotuun Python-skriptiin
+       run: python scripts/fetch_stats.py   # Osoittaa juuri luotuun Python-skriptiin
