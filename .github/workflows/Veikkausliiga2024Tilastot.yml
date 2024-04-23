@@ -25,3 +25,11 @@ jobs:
     - name: Run the script
       run: python scripts/fetch_stats.py  # Osoittaa juuri luotuun Python-skriptiin
 
+
+- name: Commit results
+  run: |
+    git config --local user.email "action@github.com"
+    git config --local user.name "GitHub Action"
+    git add Tilastot.txt
+    git commit -m "Update results"
+    git push
