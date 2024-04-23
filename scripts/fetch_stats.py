@@ -8,11 +8,13 @@ def hae_pelaajan_pisteet():
     if not response.ok:
         print("Sivun lataus epäonnistui")
         return
-    
+
     soup = BeautifulSoup(response.text, 'html.parser')
     taulukko_rivit = soup.find_all('tr')
-    
+
     etsittavat_pelaajat = ["Coffey, Ashley Mark", "Moreno Ciorciari, Jaime Jose", "Karjalainen, Rasmus", "Plange, Luke Elliot", "Odutayo, Colin"]
+    kokonaispisteet = 0  # Lisää tämä rivi pisteiden laskemiseksi
+
     with open('Tilastot.txt', 'w') as file:
         for rivi in taulukko_rivit:
             solut = rivi.find_all('td')
@@ -24,7 +26,11 @@ def hae_pelaajan_pisteet():
                     maalisyotot = int(float(solut[9].get_text().strip().replace(',', '.')))
                     punaiset_kortit = int(solut[15].get_text().strip())
                     pisteet = (maalit * 2) + (laukaukset * 0.1) + (maalisyotot * 0.5) - (punaiset_kortit * 1)
+                    kokonaispisteet += pisteet  # Kerää pisteet yhteen kokonaispisteisiin
                     file.write(f'{nimi_solu}: {pisteet:.1f} pistettä (maalit: {maalit}, laukaukset: {laukaukset}, maalisyötöt: {maalisyotot}, punaiset kortit: -{punaiset_kortit})\n')
+        
+        # Kirjoita kokonaispisteet tiedoston loppuun
+        file.write(f'\nKokonaispisteet: {kokonaispisteet:.1f} pistettä')
 
 hae_pelaajan_pisteet()
 
