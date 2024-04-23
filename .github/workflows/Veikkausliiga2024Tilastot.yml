@@ -1,1 +1,26 @@
+name: Run Python Script Daily at 15:00 UTC
+
+on:
+  schedule:
+    - cron: '0 15 * * *'  # Suorittaa workflow'n joka päivä kello 15:00 UTC
+
+jobs:
+  execute-python-script:
+    runs-on: ubuntu-latest  # Käyttää viimeisintä Ubuntu-virtuaaliympäristöä
+
+    steps:
+    - uses: actions/checkout@v3  # Hakee repositorion koodin
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'  # Asettaa Python-version
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests beautifulsoup4  # Asenna tarvittavat riippuvuudet
+
+    - name: Run the script
+      run: python path/to/your/script.py  # Korvaa polku oikealla polulla Python-skriptiisi
 
