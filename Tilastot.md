@@ -1,6 +1,6 @@
 # Sarjataulukko
-| Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Pisteet |
-|----------|---------|---------|--------|-----------|---------|----------------|-------------------|----------|---------|
+| Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Syötöt |
+|----------|---------|---------|--------|-----------|---------|----------------|-------------------|----------|-------|
 |# | Joukkue | O | V | T | H | TM | PM | ME | S | L | L% | R | KK | PK | PA | P|
 |1. | VPS | 3 | 2 | 1 | 0 | 6 | 4 | 2 | 5 | 31 | 19,35 | 32 | 4 | 0 | 8 | 7|
 |2. | SJK | 3 | 2 | 1 | 0 | 4 | 2 | 2 | 2 | 37 | 10,81 | 42 | 5 | 0 | 4 | 7|
@@ -27,3 +27,19 @@
 **Kokonaispisteet pelaajille: 10.3**
 
 **Yhteispisteet: 11.3**
+
+# Veikattu Sarjataulukko
+| Sijoitus | Joukkue |
+|----------|---------|
+| 1 | HJK |
+| 2 | KuPS |
+| 3 | Inter |
+| 4 | SJK |
+| 5 | FC Lahti |
+| 6 | Ilves |
+| 7 | FC Haka |
+| 8 | VPS |
+| 9 | AC Oulu |
+| 10 | Gnistan |
+| 11 | IFK Mariehamn |
+| 12 | EIF |
