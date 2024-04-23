@@ -3,6 +3,7 @@ name: Run Python Script Daily at 15:00 UTC
 on:
   schedule:
     - cron: '0 15 * * *'  # Suorittaa workflow'n joka päivä kello 15:00 UTC
+  workflow_dispatch:  # Mahdollistaa manuaalisen suorituksen GitHubin käyttöliittymästä
 
 jobs:
   execute-python-script:
@@ -22,4 +23,5 @@ jobs:
         pip install requests beautifulsoup4  # Asenna tarvittavat riippuvuudet
 
     - name: Run the script
-       run: python scripts/fetch_stats.py   # Osoittaa juuri luotuun Python-skriptiin
+      run: python scripts/fetch_stats.py  # Osoittaa juuri luotuun Python-skriptiin
+
