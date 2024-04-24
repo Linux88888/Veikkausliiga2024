@@ -4,6 +4,7 @@ on:
   schedule:
     # Asetetaan suoritusajankohta joka päivä klo 22:00 UTC
     - cron: '0 22 * * *'
+  workflow_dispatch:
 
 jobs:
   calculate_audience:
@@ -16,7 +17,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'  # Tarkista että tämä versio sopii koodillesi
+        python-version: '3.9'  # Varmista, että tämä versio sopii koodillesi
 
     - name: Install dependencies
       run: |
