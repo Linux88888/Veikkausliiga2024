@@ -2,7 +2,9 @@
 
 ### Veikkausliigan kokonaisyleisömäärä: 47792
 ### Veikkausliigan keskiarvoyleisömäärä per peli: 2655.11
-### Veikkausliigan peleissä yli 2.5 maalia: 66.67% (12 / 18)
+### Veikkausliigan yli 2.5 maalia pelissä: 66.67% (12 / 18)
+### Veikkausliigan kokonaismäärä tehdyt maalit: 62
+### Veikkausliigan keskiarvo maalit per peli: 3.44
 
 ## HJK
 - Kotiotteluiden keskiarvo (yleisö): 5569.50
