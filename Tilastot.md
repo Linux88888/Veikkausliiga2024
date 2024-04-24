@@ -2,9 +2,9 @@
 | Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Syötöt |
 |----------|---------|---------|--------|-----------|---------|----------------|-------------------|----------|-------|
 |# | Joukkue | O | V | T | H | TM | PM | ME | S | L | L% | R | KK | PK | PA | P|
-|1. | VPS | 3 | 2 | 1 | 0 | 6 | 4 | 2 | 5 | 31 | 19,35 | 32 | 4 | 0 | 8 | 7|
-|2. | SJK | 3 | 2 | 1 | 0 | 4 | 2 | 2 | 2 | 37 | 10,81 | 42 | 5 | 0 | 4 | 7|
-|3. | HJK | 3 | 2 | 0 | 1 | 7 | 4 | 3 | 6 | 50 | 14,00 | 43 | 6 | 0 | 5 | 6|
+|1. | SJK | 4 | 2 | 2 | 0 | 7 | 5 | 2 | 4 | 49 | 14,29 | 51 | 8 | 0 | 6 | 8|
+|2. | HJK | 4 | 2 | 1 | 1 | 10 | 7 | 3 | 8 | 61 | 16,39 | 55 | 8 | 0 | 7 | 7|
+|3. | VPS | 3 | 2 | 1 | 0 | 6 | 4 | 2 | 5 | 31 | 19,35 | 32 | 4 | 0 | 8 | 7|
 |4. | Gnistan | 3 | 2 | 0 | 1 | 10 | 8 | 2 | 6 | 21 | 47,62 | 55 | 12 | 0 | 2 | 6|
 |5. | KuPS | 3 | 1 | 2 | 0 | 6 | 4 | 2 | 4 | 34 | 17,65 | 37 | 5 | 0 | 4 | 5|
 |6. | IFK Mariehamn | 3 | 1 | 1 | 1 | 6 | 6 | 0 | 0 | 26 | 23,08 | 36 | 8 | 0 | 1 | 4|
@@ -17,16 +17,16 @@
 
 # Pelaajien pisteet
 * Coffey, Ashley Mark: 3.0 pistettä
-* Karjalainen, Rasmus: 0.5 pistettä
-* Moreno Ciorciari, Jaime Jose: 4.4 pistettä
+* Karjalainen, Rasmus: 2.7 pistettä
+* Moreno Ciorciari, Jaime Jose: 6.5 pistettä
 * Odutayo, Colin: 0.9 pistettä
-* Plange, Luke Elliot: 1.5 pistettä
+* Plange, Luke Elliot: 1.6 pistettä
 
 **Kokonaispisteet joukkueille: 1**
 
-**Kokonaispisteet pelaajille: 10.3**
+**Kokonaispisteet pelaajille: 14.7**
 
-**Yhteispisteet: 11.3**
+**Yhteispisteet: 15.7**
 
 # Veikattu Sarjataulukko
 | Sijoitus | Joukkue |
