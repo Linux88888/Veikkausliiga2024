@@ -5,7 +5,12 @@ from bs4 import BeautifulSoup
 url = "https://www.veikkausliiga.com/tilastot/2024/veikkausliiga/ottelut/"
 teams = ["HJK", "KuPS", "FC Inter", "SJK", "FC Lahti", "Ilves", "FC Haka", "VPS", "AC Oulu", "Gnistan", "IFK Mariehamn", "EIF"]
 
-team_data = {team: {'Home': {'audiences': [], 'goals': []}, 'Away': {'audiences': [], 'goals': []}} for team in teams}
+team_data = {
+    team: {
+        'Home': {'audiences': [], 'goals_scored': [], 'goals_conceded': []},
+        'Away': {'audiences': [], 'goals_scored': [], 'goals_conceded': []}
+    } for team in teams
+}
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
@@ -17,10 +22,9 @@ for row in table_rows:
         date = cells[1].get_text(strip=True)
         time = cells[2].get_text(strip=True)
         match_teams = cells[3].get_text(strip=True)
-        result_text = cells[5].get_text(strip=True)  # Tuloksen sarake oikein, indeksi 5
-        audience_text = cells[6].get_text(strip=True)  # Yleisömäärän sarake oikein, indeksi 6
+        result_text = cells[5].get_text(strip=True)
+        audience_text = cells[6].get_text(strip=True)
 
-        hour, minute = map(int, time.split(':')) if ':' in time else (0, 0)
         result_match = re.search(r'(\d+) — (\d+)', result_text)
         audience_number = int(re.search(r'(\d+)', audience_text).group(1)) if re.search(r'(\d+)', audience_text) else 0
 
@@ -30,44 +34,46 @@ for row in table_rows:
 
             if home_team in teams:
                 team_data[home_team]['Home']['audiences'].append(audience_number)
-                team_data[home_team]['Home']['goals'].append(home_goals)
+                team_data[home_team]['Home']['goals_scored'].append(home_goals)
+                team_data[home_team]['Home']['goals_conceded'].append(away_goals)
+
             if away_team in teams:
                 team_data[away_team]['Away']['audiences'].append(audience_number)
-                team_data[away_team]['Away']['goals'].append(away_goals)
+                team_data[away_team]['Away']['goals_scored'].append(away_goals)
+                team_data[away_team]['Away']['goals_conceded'].append(home_goals)
 
 # Kirjoitetaan tulokset Markdown-tiedostoon
 with open('Yleisö2024.md', 'w') as file:
     file.write("# Veikkausliiga 2024 Yleisömäärät ja Maalit\n\n")
     for team, data in team_data.items():
         home_audiences = data['Home']['audiences']
-        home_goals = data['Home']['goals']
+        home_goals_scored = data['Home']['goals_scored']
+        home_goals_conceded = data['Home']['goals_conceded']
         away_audiences = data['Away']['audiences']
-        away_goals = data['Away']['goals']
+        away_goals_scored = data['Away']['goals_scored']
+        away_goals_conceded = data['Away']['goals_conceded']
 
         all_audiences = home_audiences + away_audiences
-        all_goals = home_goals + away_goals
+        all_goals_scored = home_goals_scored + away_goals_scored
+        all_goals_conceded = home_goals_conceded + away_goals_conceded
 
         if all_audiences:
-            total_average_audience = sum(all_audiences) / len(all_audiences)
-            total_average_goals = sum(all_goals) / len(all_goals)
             file.write(f"## {team}\n")
-            file.write(f"- Kokonaiskeskiarvo kaikista peleistä (yleisö): {total_average_audience:.2f}\n")
-            file.write(f"- Kokonaiskeskiarvo kaikista peleistä (maalit): {total_average_goals:.2f}\n")
+            file.write(f"- Kokonaiskeskiarvo kaikista peleistä (yleisö): {sum(all_audiences) / len(all_audiences):.2f}\n")
+            file.write(f"- Kokonaiskeskiarvo kaikista peleistä (maalit tehty): {sum(all_goals_scored) / len(all_goals_scored):.2f}\n")
+            file.write(f"- Kokonaiskeskiarvo kaikista peleistä (maalit päästetty): {sum(all_goals_conceded) / len(all_goals_conceded):.2f}\n")
             
             if home_audiences:
-                home_average_audience = sum(home_audiences) / len(home_audiences)
-                home_average_goals = sum(home_goals) / len(home_goals)
-                file.write(f"- Kotiotteluiden keskiarvo (yleisö): {home_average_audience:.2f}\n")
-                file.write(f"- Kotiotteluiden keskiarvo (maalit): {home_average_goals:.2f}\n")
+                file.write(f"- Kotiotteluiden keskiarvo (yleisö): {sum(home_audiences) / len(home_audiences):.2f}\n")
+                file.write(f"- Kotiotteluiden keskiarvo (maalit tehty): {sum(home_goals_scored) / len(home_goals_scored):.2f}\n")
+                file.write(f"- Kotiotteluiden keskiarvo (maalit päästetty): {sum(home_goals_conceded) / len(home_goals_conceded):.2f}\n")
             
             if away_audiences:
-                away_average_audience = sum(away_audiences) / len(away_audiences)
-                away_average_goals = sum(away_goals) / len(away_goals)
-                file.write(f"- Vierasotteluiden keskiarvo (yleisö): {away_average_audience:.2f}\n")
-                file.write(f"- Vierasotteluiden keskiarvo (maalit): {away_average_goals:.2f}\n")
+                file.write(f"- Vierasotteluiden keskiarvo (yleisö): {sum(away_audiences) / len(away_audiences):.2f}\n")
+                file.write(f"- Vierasotteluiden keskiarvo (maalit tehty): {sum(away_goals_scored) / len(away_goals_scored):.2f}\n")
+                file.write(f"- Vierasotteluiden keskiarvo (maalit päästetty): {sum(away_goals_conceded) / len(away_goals_conceded):.2f}\n")
             file.write("\n")
         else:
             file.write(f"## {team}\n")
             file.write("Ei yleisö- tai maalitietoja saatavilla.\n\n")
-
 
