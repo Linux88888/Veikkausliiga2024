@@ -7,8 +7,8 @@ teams = ["HJK", "KuPS", "FC Inter", "SJK", "FC Lahti", "Ilves", "FC Haka", "VPS"
 
 team_data = {
     team: {
-        'Home': {'audiences': [], 'goals_scored': [], 'goals_conceded': []},
-        'Away': {'audiences': [], 'goals_scored': [], 'goals_conceded': []}
+        'Home': {'audiences': [], 'goals_scored': [], 'goals_conceded': [], 'over_2_5': 0},
+        'Away': {'audiences': [], 'goals_scored': [], 'goals_conceded': [], 'over_2_5': 0}
     } for team in teams
 }
 
@@ -30,17 +30,22 @@ for row in table_rows:
 
         if result_match:
             home_goals, away_goals = map(int, result_match.groups())
+            total_goals = home_goals + away_goals
             home_team, away_team = [team.strip() for team in match_teams.split(' - ')]
 
             if home_team in teams:
                 team_data[home_team]['Home']['audiences'].append(audience_number)
                 team_data[home_team]['Home']['goals_scored'].append(home_goals)
                 team_data[home_team]['Home']['goals_conceded'].append(away_goals)
+                if total_goals > 2.5:
+                    team_data[home_team]['Home']['over_2_5'] += 1
 
             if away_team in teams:
                 team_data[away_team]['Away']['audiences'].append(audience_number)
                 team_data[away_team]['Away']['goals_scored'].append(away_goals)
                 team_data[away_team]['Away']['goals_conceded'].append(home_goals)
+                if total_goals > 2.5:
+                    team_data[away_team]['Away']['over_2_5'] += 1
 
 # Kirjoitetaan tulokset Markdown-tiedostoon
 with open('Yleisö2024.md', 'w') as file:
@@ -49,31 +54,27 @@ with open('Yleisö2024.md', 'w') as file:
         home_audiences = data['Home']['audiences']
         home_goals_scored = data['Home']['goals_scored']
         home_goals_conceded = data['Home']['goals_conceded']
+        home_games = len(home_audiences)
+        home_over_2_5_pct = (data['Home']['over_2_5'] / home_games * 100) if home_games else 0
+
         away_audiences = data['Away']['audiences']
         away_goals_scored = data['Away']['goals_scored']
         away_goals_conceded = data['Away']['goals_conceded']
+        away_games = len(away_audiences)
+        away_over_2_5_pct = (data['Away']['over_2_5'] / away_games * 100) if away_games else 0
 
-        all_audiences = home_audiences + away_audiences
-        all_goals_scored = home_goals_scored + away_goals_scored
-        all_goals_conceded = home_goals_conceded + away_goals_conceded
+        file.write(f"## {team}\n")
+        file.write(f"- Kokonaiskeskiarvo kaikista peleistä (yleisö): {sum(home_audiences + away_audiences) / (home_games + away_games):.2f}\n")
+        file.write(f"- Kokonaiskeskiarvo kaikista peleistä (maalit tehty): {sum(home_goals_scored + away_goals_scored) / (home_games + away_games):.2f}\n")
+        file.write(f"- Kokonaiskeskiarvo kaikista peleistä (maalit päästetty): {sum(home_goals_conceded + away_goals_conceded) / (home_games + away_games):.2f}\n")
+        file.write(f"- Kotiotteluiden keskiarvo (yleisö): {sum(home_audiences) / home_games:.2f}\n")
+        file.write(f"- Kotiotteluiden keskiarvo (maalit tehty): {sum(home_goals_scored) / home_games:.2f}\n")
+        file.write(f"- Kotiotteluiden keskiarvo (maalit päästetty): {sum(home_goals_conceded) / home_games:.2f}\n")
+        file.write(f"- Kotiotteluiden yli 2.5 maalia pelissä: {home_over_2_5_pct:.2f}% ({data['Home']['over_2_5']} / {home_games})\n")
+        file.write(f"- Vierasotteluiden keskiarvo (yleisö): {sum(away_audiences) / away_games:.2f}\n")
+        file.write(f"- Vierasotteluiden keskiarvo (maalit tehty): {sum(away_goals_scored) / away_games:.2f}\n")
+        file.write(f"- Vierasotteluiden keskiarvo (maalit päästetty): {sum(away_goals_conceded) / away_games:.2f}\n")
+        file.write(f"- Vierasotteluiden yli 2.5 maalia pelissä: {away_over_2_5_pct:.2f}% ({data['Away']['over_2_5']} / {away_games})\n")
+        file.write("\n")
 
-        if all_audiences:
-            file.write(f"## {team}\n")
-            file.write(f"- Kokonaiskeskiarvo kaikista peleistä (yleisö): {sum(all_audiences) / len(all_audiences):.2f}\n")
-            file.write(f"- Kokonaiskeskiarvo kaikista peleistä (maalit tehty): {sum(all_goals_scored) / len(all_goals_scored):.2f}\n")
-            file.write(f"- Kokonaiskeskiarvo kaikista peleistä (maalit päästetty): {sum(all_goals_conceded) / len(all_goals_conceded):.2f}\n")
-            
-            if home_audiences:
-                file.write(f"- Kotiotteluiden keskiarvo (yleisö): {sum(home_audiences) / len(home_audiences):.2f}\n")
-                file.write(f"- Kotiotteluiden keskiarvo (maalit tehty): {sum(home_goals_scored) / len(home_goals_scored):.2f}\n")
-                file.write(f"- Kotiotteluiden keskiarvo (maalit päästetty): {sum(home_goals_conceded) / len(home_goals_conceded):.2f}\n")
-            
-            if away_audiences:
-                file.write(f"- Vierasotteluiden keskiarvo (yleisö): {sum(away_audiences) / len(away_audiences):.2f}\n")
-                file.write(f"- Vierasotteluiden keskiarvo (maalit tehty): {sum(away_goals_scored) / len(away_goals_scored):.2f}\n")
-                file.write(f"- Vierasotteluiden keskiarvo (maalit päästetty): {sum(away_goals_conceded) / len(away_goals_conceded):.2f}\n")
-            file.write("\n")
-        else:
-            file.write(f"## {team}\n")
-            file.write("Ei yleisö- tai maalitietoja saatavilla.\n\n")
 
