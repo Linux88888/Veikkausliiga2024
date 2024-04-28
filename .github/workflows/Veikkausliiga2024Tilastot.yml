@@ -2,7 +2,7 @@ name: Run Python Script Daily at 22:00 UTC
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # Suorittaa workflow'n joka päivä kello 22:00 UTC
+    - cron: '0 20 * * *'  # Suorittaa workflow'n joka päivä kello 22:00 UTC
   workflow_dispatch:  # Mahdollistaa manuaalisen suorituksen GitHubin käyttöliittymästä
 
 jobs:
