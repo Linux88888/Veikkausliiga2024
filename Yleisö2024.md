@@ -1,10 +1,10 @@
 # Veikkausliiga 2024 - Yleisömäärät, Maalit ja Yli 2.5 Maalia Pelissä
 
-### Veikkausliigan kokonaisyleisömäärä: 56813
-### Veikkausliigan keskiarvoyleisömäärä per peli: 2470.13
-### Veikkausliigan yli 2.5 maalia pelissä: 65.22% (15 / 23)
-### Veikkausliigan kokonaismäärä tehdyt maalit: 77
-### Veikkausliigan keskiarvo maalit per peli: 3.35
+### Veikkausliigan kokonaisyleisömäärä: 57917
+### Veikkausliigan keskiarvoyleisömäärä per peli: 2413.21
+### Veikkausliigan yli 2.5 maalia pelissä: 62.50% (15 / 24)
+### Veikkausliigan kokonaismäärä tehdyt maalit: 78
+### Veikkausliigan keskiarvo maalit per peli: 3.25
 
 ## HJK
 - Kotiotteluiden keskiarvo (yleisö): 5569.50
@@ -61,10 +61,10 @@
 - Kotiotteluiden keskiarvo (maalit tehty): 2.00
 - Kotiotteluiden keskiarvo (maalit päästetty): 3.00
 - Kotiotteluiden yli 2.5 maalia pelissä: 50.00% (1 / 2)
-- Vierasotteluiden keskiarvo (yleisö): 2157.00
-- Vierasotteluiden keskiarvo (maalit tehty): 0.00
-- Vierasotteluiden keskiarvo (maalit päästetty): 1.00
-- Vierasotteluiden yli 2.5 maalia pelissä: 0.00% (0 / 1)
+- Vierasotteluiden keskiarvo (yleisö): 1630.50
+- Vierasotteluiden keskiarvo (maalit tehty): 0.50
+- Vierasotteluiden keskiarvo (maalit päästetty): 0.50
+- Vierasotteluiden yli 2.5 maalia pelissä: 0.00% (0 / 2)
 
 ## FC Haka
 - Kotiotteluiden keskiarvo (yleisö): 1673.67
@@ -107,10 +107,10 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: 100.00% (2 / 2)
 
 ## IFK Mariehamn
-- Kotiotteluiden keskiarvo (yleisö): 1375.00
-- Kotiotteluiden keskiarvo (maalit tehty): 2.50
-- Kotiotteluiden keskiarvo (maalit päästetty): 2.00
-- Kotiotteluiden yli 2.5 maalia pelissä: 100.00% (2 / 2)
+- Kotiotteluiden keskiarvo (yleisö): 1284.67
+- Kotiotteluiden keskiarvo (maalit tehty): 1.67
+- Kotiotteluiden keskiarvo (maalit päästetty): 1.67
+- Kotiotteluiden yli 2.5 maalia pelissä: 66.67% (2 / 3)
 - Vierasotteluiden keskiarvo (yleisö): 6100.00
 - Vierasotteluiden keskiarvo (maalit tehty): 1.00
 - Vierasotteluiden keskiarvo (maalit päästetty): 2.00
