@@ -2,13 +2,13 @@
 | Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Syötöt |
 |----------|---------|---------|--------|-----------|---------|----------------|-------------------|----------|-------|
 |# | Joukkue | O | V | T | H | TM | PM | ME | S | L | L% | R | KK | PK | PA | P|
-|1. | SJK | 4 | 2 | 2 | 0 | 7 | 5 | 2 | 5 | 49 | 14,29 | 51 | 8 | 0 | 6 | 11|
+|1. | SJK | 5 | 3 | 2 | 0 | 8 | 5 | 3 | 6 | 64 | 12,50 | 53 | 11 | 0 | 7 | 11|
 |2. | VPS | 4 | 3 | 1 | 0 | 8 | 5 | 3 | 7 | 47 | 17,02 | 44 | 9 | 0 | 8 | 10|
-|3. | HJK | 5 | 2 | 2 | 1 | 11 | 8 | 3 | 8 | 75 | 14,67 | 60 | 10 | 0 | 10 | 8|
+|3. | HJK | 5 | 2 | 2 | 1 | 11 | 8 | 3 | 9 | 75 | 14,67 | 60 | 10 | 0 | 10 | 8|
 |4. | KuPS | 4 | 2 | 2 | 0 | 7 | 4 | 3 | 4 | 42 | 16,67 | 45 | 5 | 0 | 7 | 8|
-|5. | Gnistan | 3 | 2 | 0 | 1 | 10 | 8 | 2 | 6 | 21 | 47,62 | 55 | 12 | 0 | 2 | 6|
+|5. | Gnistan | 4 | 2 | 0 | 2 | 10 | 9 | 1 | 6 | 32 | 31,25 | 57 | 15 | 0 | 3 | 6|
 |6. | FC Inter | 4 | 1 | 2 | 1 | 7 | 7 | 0 | 6 | 37 | 18,92 | 39 | 10 | 0 | 10 | 5|
-|7. | FC Haka | 4 | 1 | 2 | 1 | 5 | 5 | 0 | 4 | 38 | 13,16 | 46 | 10 | 1 | 9 | 5|
+|7. | FC Haka | 4 | 1 | 2 | 1 | 5 | 5 | 0 | 5 | 38 | 13,16 | 46 | 10 | 1 | 9 | 5|
 |8. | IFK Mariehamn | 4 | 1 | 1 | 2 | 6 | 7 | -1 | 0 | 34 | 17,65 | 49 | 13 | 1 | 2 | 4|
 |9. | Ilves | 4 | 1 | 1 | 2 | 5 | 7 | -2 | 5 | 54 | 9,26 | 50 | 13 | 2 | 3 | 4|
 |10. | AC Oulu | 4 | 0 | 2 | 2 | 6 | 8 | -2 | 5 | 43 | 13,95 | 55 | 13 | 0 | 7 | 2|
@@ -17,16 +17,16 @@
 
 # Pelaajien pisteet
 * Coffey, Ashley Mark: 3.6 pistettä
-* Karjalainen, Rasmus: 2.7 pistettä
-* Moreno Ciorciari, Jaime Jose: 6.5 pistettä
+* Karjalainen, Rasmus: 3.1 pistettä
+* Moreno Ciorciari, Jaime Jose: 6.6 pistettä
 * Odutayo, Colin: 0.9 pistettä
 * Plange, Luke Elliot: 3.8 pistettä
 
 **Kokonaispisteet joukkueille: 2**
 
-**Kokonaispisteet pelaajille: 17.5**
+**Kokonaispisteet pelaajille: 18.0**
 
-**Yhteispisteet: 19.5**
+**Yhteispisteet: 20.0**
 
 # Veikattu Sarjataulukko
 | Sijoitus | Joukkue |
