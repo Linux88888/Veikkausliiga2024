@@ -73,13 +73,17 @@ with open('Yleisö2024.md', 'w') as file:
         home_goals_scored = data['Home']['goals_scored']
         home_goals_conceded = data['Home']['goals_conceded']
         home_games = len(home_audiences)
-
+        total_home_audience = sum(home_audiences)
+        
         away_audiences = data['Away']['audiences']
         away_goals_scored = data['Away']['goals_scored']
         away_goals_conceded = data['Away']['goals_conceded']
         away_games = len(away_audiences)
-
+        total_away_audience = sum(away_audiences)
+        
         file.write(f"## {team}\n")
+        file.write(f"- Kotiotteluiden kokonaisyleisömäärä: {total_home_audience}\n")
+        file.write(f"- Vierasotteluiden kokonaisyleisömäärä: {total_away_audience}\n") 
         if home_games > 0:
             file.write(f"- Kotiotteluiden keskiarvo (yleisö): {sum(home_audiences) / home_games:.2f}\n")
             file.write(f"- Kotiotteluiden keskiarvo (maalit tehty): {sum(home_goals_scored) / home_games:.2f}\n")
