@@ -2,8 +2,8 @@ name: Update Future Games
 
 on:
   schedule:
-    # Ajetaan joka päivä kello 01:00 UTC
     - cron: '0 1 * * *'
+  workflow_dispatch:  # Tämä mahdollistaa manuaalisen käynnistyksen
 
 jobs:
   update-games:
@@ -32,3 +32,4 @@ jobs:
           git add -A
           git commit -m "Updated future games" || exit 0  # Exit 0 if no changes
           git push
+
