@@ -2,10 +2,10 @@
 | Sijoitus | Joukkue | Ottelut | Voitot | Tasapelit | Tappiot | Tehdyt maalit | Päästetyt maalit | Maaliero | Syötöt |
 |----------|---------|---------|--------|-----------|---------|----------------|-------------------|----------|-------|
 |# | Joukkue | O | V | T | H | TM | PM | ME | S | L | L% | R | KK | PK | PA | P|
-|1. | VPS | 5 | 4 | 1 | 0 | 11 | 5 | 6 | 9 | 71 | 15,49 | 54 | 9 | 0 | 9 | 13|
-|2. | SJK | 6 | 3 | 3 | 0 | 9 | 6 | 3 | 6 | 71 | 12,68 | 76 | 16 | 0 | 11 | 12|
-|3. | HJK | 6 | 2 | 3 | 1 | 11 | 8 | 3 | 9 | 100 | 11,00 | 68 | 11 | 0 | 10 | 9|
-|4. | KuPS | 5 | 2 | 3 | 0 | 8 | 5 | 3 | 4 | 49 | 16,33 | 60 | 6 | 0 | 8 | 9|
+|1. | VPS | 6 | 4 | 1 | 1 | 12 | 7 | 5 | 9 | 85 | 14,12 | 72 | 11 | 0 | 11 | 13|
+|2. | KuPS | 6 | 3 | 3 | 0 | 10 | 6 | 4 | 5 | 52 | 19,23 | 69 | 11 | 1 | 9 | 12|
+|3. | SJK | 6 | 3 | 3 | 0 | 9 | 6 | 3 | 6 | 71 | 12,68 | 76 | 16 | 0 | 11 | 12|
+|4. | HJK | 6 | 2 | 3 | 1 | 11 | 8 | 3 | 9 | 100 | 11,00 | 68 | 11 | 0 | 10 | 9|
 |5. | FC Haka | 5 | 2 | 2 | 1 | 8 | 5 | 3 | 8 | 47 | 17,02 | 46 | 11 | 1 | 9 | 8|
 |6. | IFK Mariehamn | 5 | 2 | 1 | 2 | 9 | 8 | 1 | 1 | 40 | 22,50 | 56 | 16 | 1 | 6 | 7|
 |7. | Ilves | 5 | 2 | 1 | 2 | 8 | 9 | -1 | 6 | 69 | 11,59 | 62 | 17 | 2 | 5 | 7|
@@ -22,11 +22,11 @@
 * Odutayo, Colin: 1.2 pistettä
 * Plange, Luke Elliot: 4.5 pistettä
 
-**Kokonaispisteet joukkueille: 0**
+**Kokonaispisteet joukkueille: 1**
 
 **Kokonaispisteet pelaajille: 21.5**
 
-**Yhteispisteet: 21.5**
+**Yhteispisteet: 22.5**
 
 # Veikattu Sarjataulukko
 | Sijoitus | Joukkue |
