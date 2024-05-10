@@ -2,7 +2,7 @@ name: Päivittäinen Yleisölaskuri
 
 on:
   schedule:
-    # Asetetaan suoritusajankohta joka päivä klo 22:00 UTC
+    # Asetetaan suoritusajankohta joka päivä klo 20:00 UTC
     - cron: '0 20 * * *'
   workflow_dispatch:
 
@@ -17,20 +17,21 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'  # Varmista, että tämä versio sopii koodillesi
+        python-version: '3.9'  
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4
 
-    - name: Run Yleisölaskuri script
-      run: python scripts/Yleisölaskuri.py
+    - name: Run update_games.py script
+      run: python scripts/update_games.py  
 
     - name: Commit and push if changes
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
-        git add Yleisö2024.md
-        git commit -m "Update audience counts" || echo "No changes to commit"
+        git add Tulevatottelut.md  # Oletetaan, että skripti päivittää tämän tiedoston
+        git commit -m "Update upcoming games" || echo "No changes to commit"
         git push
+
