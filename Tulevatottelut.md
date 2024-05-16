@@ -1,16 +1,28 @@
-38 - Pe 17.5.2024 - 18:00 - AC Oulu - IFK Mariehamn - Kokoonpanot |
+38 - Pe 17.5.2024 - 18:00 - AC Oulu - IFK Mariehamn - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-39 -  - 18:00 - HJK - VPS - Kokoonpanot |
+39 -  - 18:00 - HJK - VPS - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-40 -  - 19:00 - SJK - FC Inter - Kokoonpanot |
+40 -  - 19:00 - SJK - FC Inter - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-41 -  - 20:00 - Ilves - FC Haka - Kokoonpanot |
+41 -  - 20:00 - Ilves - FC Haka - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
