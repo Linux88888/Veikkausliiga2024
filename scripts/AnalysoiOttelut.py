@@ -23,12 +23,8 @@ teams = ["HJK", "KuPS", "FC Inter", "SJK", "FC Lahti", "Ilves", "FC Haka", "VPS"
 tulevat_ottelut_data = fetch_and_parse_github_markdown(tulevat_ottelut_url)
 yleiso_data = fetch_and_parse_github_markdown(yleiso_url)
 
-# Tulostetaan haettu data debuggausta varten
-print("Tulevat ottelut data:\n", tulevat_ottelut_data[:500], "\n")
-print("Yleisö data:\n", yleiso_data[:500], "\n")
-
 # Funktio, joka parsii tulevat ottelut datan
-def parse_tulevat_ottelut(data):
+def parse_tulevat_ottelut(data, teams):
     ottelut = []
     lines = data.splitlines()
     for line in lines:
@@ -66,7 +62,7 @@ def parse_yleiso_data(data):
     return teams_data
 
 # Parsii datat
-ottelut = parse_tulevat_ottelut(tulevat_ottelut_data)
+ottelut = parse_tulevat_ottelut(tulevat_ottelut_data, teams)
 teams_data = parse_yleiso_data(yleiso_data)
 
 # Tulostetaan parsiottu data debuggausta varten
@@ -81,7 +77,7 @@ def analyze_matches(ottelut, teams_data):
         vieras = ottelu['vieras']
         if koti in teams_data and vieras in teams_data:
             koti_maaleja = teams_data[koti].get('koti_maaleja', 0)
-            vieras_maaleja = teams_data[vieras].get('vieras_maaleja', 0)
+            vieras_maaleja = teams_data[v%ieras].get('vieras_maaleja', 0)
             total_goals = koti_maaleja + vieras_maaleja
             yli_2_5 = total_goals > 2.5
             result = {
