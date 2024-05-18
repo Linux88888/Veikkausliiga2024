@@ -34,4 +34,3 @@ jobs:
         git add Yleisö2024.md  # Oletetaan, että skripti päivittää tämän tiedoston
         git commit -m "Update upcoming games" || echo "No changes to commit"
         git push
-
