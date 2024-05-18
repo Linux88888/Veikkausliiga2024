@@ -1,8 +1,14 @@
-42 - Su 19.5.2024 - 16:00 - Gnistan - KuPS - Kokoonpanot |
+42 - Su 19.5.2024 - 16:00 - Gnistan - KuPS - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-43 -  - 18:30 - EIF - FC Lahti - Kokoonpanot |
+43 -  - 18:30 - EIF - FC Lahti - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
