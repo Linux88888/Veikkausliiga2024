@@ -31,7 +31,7 @@ jobs:
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
-        git add Tulevatottelut.md  # Oletetaan, että skripti päivittää tämän tiedoston
+        git add Yleisö2024.md  # Oletetaan, että skripti päivittää tämän tiedoston
         git commit -m "Update upcoming games" || echo "No changes to commit"
         git push
 
