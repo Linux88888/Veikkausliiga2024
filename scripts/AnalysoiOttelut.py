@@ -6,7 +6,6 @@ def fetch_and_parse_github_markdown(url):
     response = requests.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
-    # Hakee markdown-tekstin pre-tagin sisältä
     pre_tag = soup.find('pre')
     if pre_tag:
         return pre_tag.text
@@ -20,6 +19,10 @@ yleiso_url = 'https://raw.githubusercontent.com/Linux88888/Veikkausliiga2024/mai
 # Hakee ja parsii datan
 tulevat_ottelut_data = fetch_and_parse_github_markdown(tulevat_ottelut_url)
 yleiso_data = fetch_and_parse_github_markdown(yleiso_url)
+
+# Tulostetaan haettu data debuggausta varten
+print("Tulevat ottelut data:\n", tulevat_ottelut_data[:500], "\n")
+print("Yleisö data:\n", yleiso_data[:500], "\n")
 
 # Funktio, joka parsii tulevat ottelut datan
 def parse_tulevat_ottelut(data):
@@ -59,6 +62,10 @@ def parse_yleiso_data(data):
 # Parsii datat
 ottelut = parse_tulevat_ottelut(tulevat_ottelut_data)
 teams_data = parse_yleiso_data(yleiso_data)
+
+# Tulostetaan parsiottu data debuggausta varten
+print("Parsitut ottelut:\n", ottelut, "\n")
+print("Parsittu yleisödata:\n", teams_data, "\n")
 
 # Analysoi ottelut ja laske todennäköisyys yli 2.5 maalia
 def analyze_matches(ottelut, teams_data):
@@ -100,4 +107,5 @@ analysoidut_tulokset = analyze_matches(ottelut, teams_data)
 save_results_to_markdown(analysoidut_tulokset, 'AnalysoidutOttelut.md')
 
 print("Analyysi valmis ja tulokset tallennettu tiedostoon 'AnalysoidutOttelut.md'.")
+
 
