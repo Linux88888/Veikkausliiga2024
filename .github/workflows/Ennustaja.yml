@@ -1,4 +1,5 @@
 name: Ennustaja
+
 on:
   schedule:
     - cron: '0 20 * * *'
