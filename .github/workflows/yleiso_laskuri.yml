@@ -24,7 +24,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests beautifulsoup4
 
-    - name: Run update_games.py script
+    - name: Run Yleisölaskuri.py script
       run: python scripts/Yleisölaskuri.py  
 
     - name: Commit and push if changes
