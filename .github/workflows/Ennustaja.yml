@@ -1,4 +1,4 @@
-name: Päivittäinen Yleisölaskuri
+name: Ennustaja
 
 on:
   schedule:
