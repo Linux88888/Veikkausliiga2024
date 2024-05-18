@@ -45,7 +45,10 @@ def parse_tulevat_ottelut(data, teams):
                         'koti': koti,
                         'vieras': vieras,
                     }
+                    print(f"Lisätty ottelu: {ottelu}")  # Debug-tuloste
                     ottelut.append(ottelu)
+                else:
+                    print(f"Ei kelvollinen joukkue: {koti} vs {vieras}")  # Debug-tuloste
     return ottelut
 
 # Funktio, joka parsii yleisödata
@@ -95,13 +98,20 @@ def analyze_matches(ottelut, teams_data):
     return results
 
 # Tulostaa analysoidut tulokset markdown-tiedostoon
-def save_results_to_markdown(results, filename):
+def save_results_to_markdown(ottelut, results, filename):
     with open(filename, 'w', encoding='utf-8') as file:
         file.write("# Analysoidut Ottelut\n\n")
+        
+        # Tulostetaan ottelut
+        file.write("## Tulevat Ottelut\n")
+        for ottelu in ottelut:
+            file.write(f"- {ottelu['koti']} vs {ottelu['vieras']} ({ottelu['paiva']} klo {ottelu['aika']})\n")
+        
+        file.write("\n## Ennusteet\n")
         if not results:
             file.write("Ei analysoitavia otteluita.\n")
         for tulos in results:
-            file.write(f"## Ottelu: {tulos['ottelu']}\n")
+            file.write(f"### Ottelu: {tulos['ottelu']}\n")
             file.write(f"- Koti joukkueen keskiarvo maalit: {tulos['koti_maaleja']}\n")
             file.write(f"- Vieras joukkueen keskiarvo maalit: {tulos['vieras_maaleja']}\n")
             file.write(f"- Kokonaismaalit: {tulos['total_goals']}\n")
@@ -111,6 +121,6 @@ def save_results_to_markdown(results, filename):
 
 # Analysoi ottelut ja tallenna tulokset
 analysoidut_tulokset = analyze_matches(ottelut, teams_data)
-save_results_to_markdown(analysoidut_tulokset, 'AnalysoidutOttelut.md')
+save_results_to_markdown(ottelut, analysoidut_tulokset, 'AnalysoidutOttelut.md')
 
 print("Analyysi valmis ja tulokset tallennettu tiedostoon 'AnalysoidutOttelut.md'.")
