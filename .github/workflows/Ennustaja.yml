@@ -1,8 +1,6 @@
 name: Ennustaja
-
 on:
   schedule:
-    # Asetetaan suoritusajankohta joka päivä klo 20:00 UTC
     - cron: '0 20 * * *'
   workflow_dispatch:
 
@@ -25,12 +23,15 @@ jobs:
         pip install requests beautifulsoup4
 
     - name: Run AnalysoiOttelut.py script
-      run: python scripts/AnalysoiOttelut.py  # Uusi skripti
+      run: python scripts/AnalysoiOttelut.py
+
+    - name: Verify script run
+      run: cat AnalysoidutOttelut.md
 
     - name: Commit and push if changes
       run: |
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
-        git add AnalysoidutOttelut.md  # Lisää analyysitiedosto
+        git add AnalysoidutOttelut.md
         git commit -m "Update analyzed matches" || echo "No changes to commit"
         git push
