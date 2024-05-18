@@ -85,6 +85,8 @@ def analyze_matches(ottelut, teams_data):
 def save_results_to_markdown(results, filename):
     with open(filename, 'w', encoding='utf-8') as file:
         file.write("# Analysoidut Ottelut\n\n")
+        if not results:
+            file.write("Ei analysoitavia otteluita.\n")
         for tulos in results:
             file.write(f"## Ottelu: {tulos['ottelu']}\n")
             file.write(f"- Koti joukkueen keskiarvo maalit: {tulos['koti_maaleja']}\n")
@@ -98,3 +100,4 @@ analysoidut_tulokset = analyze_matches(ottelut, teams_data)
 save_results_to_markdown(analysoidut_tulokset, 'AnalysoidutOttelut.md')
 
 print("Analyysi valmis ja tulokset tallennettu tiedostoon 'AnalysoidutOttelut.md'.")
+
