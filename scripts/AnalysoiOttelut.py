@@ -16,6 +16,9 @@ def fetch_and_parse_github_markdown(url):
 tulevat_ottelut_url = 'https://raw.githubusercontent.com/Linux88888/Veikkausliiga2024/main/Tulevatottelut.md'
 yleiso_url = 'https://raw.githubusercontent.com/Linux88888/Veikkausliiga2024/main/Yleis%C3%B62024.md'
 
+# Joukkueiden lista
+teams = ["HJK", "KuPS", "FC Inter", "SJK", "FC Lahti", "Ilves", "FC Haka", "VPS", "AC Oulu", "Gnistan", "IFK Mariehamn", "EIF"]
+
 # Hakee ja parsii datan
 tulevat_ottelut_data = fetch_and_parse_github_markdown(tulevat_ottelut_url)
 yleiso_data = fetch_and_parse_github_markdown(yleiso_url)
@@ -29,17 +32,20 @@ def parse_tulevat_ottelut(data):
     ottelut = []
     lines = data.splitlines()
     for line in lines:
-        if '-' in line:
+        if ' - ' in line and 'Seuranta' not in line:
             parts = line.split(' - ')
-            if len(parts) > 4:
-                ottelu = {
-                    'id': parts[0].strip(),
-                    'paiva': parts[1].strip(),
-                    'aika': parts[2].strip(),
-                    'koti': parts[3].strip(),
-                    'vieras': parts[4].strip(),
-                }
-                ottelut.append(ottelu)
+            if len(parts) >= 5:
+                koti = parts[3].strip()
+                vieras = parts[4].strip()
+                if koti in teams and vieras in teams:
+                    ottelu = {
+                        'id': parts[0].strip(),
+                        'paiva': parts[1].strip() if len(parts) > 5 else '',
+                        'aika': parts[2].strip() if len(parts) > 4 else '',
+                        'koti': koti,
+                        'vieras': vieras,
+                    }
+                    ottelut.append(ottelu)
     return ottelut
 
 # Funktio, joka parsii yleisödata
