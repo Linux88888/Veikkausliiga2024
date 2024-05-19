@@ -51,15 +51,15 @@ def parse_tulevat_ottelut(data, teams):
                     print(f"Ei kelvollinen joukkue: {koti} vs {vieras}")  # Debug-tuloste
     return ottelut
 
-# Funktio, joka parsii yleisödata (tässä tapauksessa maalitiedot)
+# Funktio, joka parsii maalitiedot
 def parse_yleiso_data(data):
     teams_data = {}
     current_team = None
     lines = data.splitlines()
     for line in lines:
-        print(f"Käsitellään rivi: {line}")  # Debug-tuloste
-        if line.strip() and not line.startswith(' '):
-            current_team = line.strip()
+        line = line.strip()
+        if line and line.split()[0] in teams:
+            current_team = line.split()[0]
             teams_data[current_team] = {}
             print(f"Nykyinen joukkue: {current_team}")  # Debug-tuloste
         elif current_team and 'Kotiotteluiden keskiarvo (maalit tehty):' in line:
