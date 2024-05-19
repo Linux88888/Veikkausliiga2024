@@ -76,28 +76,25 @@ teams_data = parse_yleiso_data(yleiso_data)
 print("Parsitut ottelut:\n", ottelut, "\n")
 print("Parsittu yleisödata:\n", teams_data, "\n")
 
-# Analysoi ottelut ja laske todennäköisyys yli 2.5 maalia
-def analyze_matches(ottelut, teams_data):
+# Yksinkertainen analysointifunktio
+def simple_analyze_matches(ottelut, teams_data):
     results = []
     for ottelu in ottelut:
         koti = ottelu['koti']
         vieras = ottelu['vieras']
-        if koti in teams_data and vieras in teams_data:
-            koti_maaleja = teams_data[koti].get('koti_maaleja', 0)
-            vieras_maaleja = teams_data[v%ieras].get('vieras_maaleja', 0)
-            total_goals = koti_maaleja + vieras_maaleja
-            yli_2_5 = total_goals > 2.5
-            result = {
-                'ottelu': f"{koti} vs {vieras}",
-                'koti_maaleja': koti_maaleja,
-                'vieras_maaleja': vieras_maaleja,
-                'total_goals': total_goals,
-                'yli_2_5': yli_2_5
-            }
-            print(f"Analysoitu ottelu: {result}")  # Debug-tuloste
-            results.append(result)
-        else:
-            print(f"Tietoja puuttuu joukkueilta: {koti} ja {vieras}")  # Debug-tuloste
+        koti_maaleja = teams_data.get(koti, {}).get('koti_maaleja', 0)
+        vieras_maaleja = teams_data.get(vieras, {}).get('vieras_maaleja', 0)
+        total_goals = koti_maaleja + vieras_maaleja
+        yli_2_5 = total_goals > 2.5
+        result = {
+            'ottelu': f"{koti} vs {vieras}",
+            'koti_maaleja': koti_maaleja,
+            'vieras_maaleja': vieras_maaleja,
+            'total_goals': total_goals,
+            'yli_2_5': yli_2_5
+        }
+        results.append(result)
+        print(f"Analysoitu ottelu: {result}")  # Debug-tuloste
     return results
 
 # Tulostaa analysoidut tulokset markdown-tiedostoon
@@ -123,7 +120,7 @@ def save_results_to_markdown(ottelut, results, filename):
     print(f"Tulokset tallennettu tiedostoon {filename}")
 
 # Analysoi ottelut ja tallenna tulokset
-analysoidut_tulokset = analyze_matches(ottelut, teams_data)
+analysoidut_tulokset = simple_analyze_matches(ottelut, teams_data)
 save_results_to_markdown(ottelut, analysoidut_tulokset, 'AnalysoidutOttelut.md')
 
 print("Analyysi valmis ja tulokset tallennettu tiedostoon 'AnalysoidutOttelut.md'.")
