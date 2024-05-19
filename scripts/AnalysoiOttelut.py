@@ -84,7 +84,7 @@ def analyze_matches(ottelut, teams_data):
         vieras = ottelu['vieras']
         if koti in teams_data and vieras in teams_data:
             koti_maaleja = teams_data[koti].get('koti_maaleja', 0)
-            vieras_maaleja = teams_data[vieras].get('vieras_maaleja', 0)
+            vieras_maaleja = teams_data[v%ieras].get('vieras_maaleja', 0)
             total_goals = koti_maaleja + vieras_maaleja
             yli_2_5 = total_goals > 2.5
             result = {
@@ -94,7 +94,10 @@ def analyze_matches(ottelut, teams_data):
                 'total_goals': total_goals,
                 'yli_2_5': yli_2_5
             }
+            print(f"Analysoitu ottelu: {result}")  # Debug-tuloste
             results.append(result)
+        else:
+            print(f"Tietoja puuttuu joukkueilta: {koti} ja {vieras}")  # Debug-tuloste
     return results
 
 # Tulostaa analysoidut tulokset markdown-tiedostoon
