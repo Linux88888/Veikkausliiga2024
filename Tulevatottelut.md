@@ -1,17 +1,3 @@
-42 - Su 19.5.2024 - 16:00 - Gnistan - KuPS - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
-43 -  - 18:30 - EIF - FC Lahti - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
 44 - Ke 22.5.2024 - 18:00 - HJK - Gnistan - Kokoonpanot |
         
         
@@ -25,6 +11,14 @@
         
           Seuranta - - - -
 47 - Pe 24.5.2024 - 18:00 - FC Haka - AC Oulu - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+48 - La 25.5.2024 - 17:00 - HJK - Ilves - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+49 - Su 26.5.2024 - 18:30 - IFK Mariehamn - Gnistan - Kokoonpanot |
         
         
           Seuranta - - - -
