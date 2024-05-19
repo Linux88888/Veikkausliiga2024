@@ -66,6 +66,12 @@ def parse_yleiso_data(data):
         elif current_team and 'Vierasotteluiden keskiarvo (maalit tehty):' in line:
             avg_goals = float(line.split(': ')[1])
             teams_data[current_team]['vieras_maaleja'] = avg_goals
+        elif current_team and 'Kotiotteluiden yli 2.5 maalia pelissä:' in line:
+            over_2_5 = line.split(': ')[1]
+            teams_data[current_team]['koti_yli_2_5'] = over_2_5
+        elif current_team and 'Vierasotteluiden yli 2.5 maalia pelissä:' in line:
+            over_2_5 = line.split(': ')[1]
+            teams_data[current_team]['vieras_yli_2_5'] = over_2_5
     return teams_data
 
 # Parsii datat
@@ -84,14 +90,14 @@ def simple_analyze_matches(ottelut, teams_data):
         vieras = ottelu['vieras']
         koti_maaleja = teams_data.get(koti, {}).get('koti_maaleja', 0)
         vieras_maaleja = teams_data.get(vieras, {}).get('vieras_maaleja', 0)
-        total_goals = koti_maaleja + vieras_maaleja
-        yli_2_5 = total_goals > 2.5
+        koti_yli_2_5 = teams_data.get(koti, {}).get('koti_yli_2_5', 'Ei tietoa')
+        vieras_yli_2_5 = teams_data.get(vieras, {}).get('vieras_yli_2_5', 'Ei tietoa')
         result = {
             'ottelu': f"{koti} vs {vieras}",
             'koti_maaleja': koti_maaleja,
             'vieras_maaleja': vieras_maaleja,
-            'total_goals': total_goals,
-            'yli_2_5': yli_2_5
+            'koti_yli_2_5': koti_yli_2_5,
+            'vieras_yli_2_5': vieras_yli_2_5
         }
         results.append(result)
         print(f"Analysoitu ottelu: {result}")  # Debug-tuloste
@@ -114,8 +120,8 @@ def save_results_to_markdown(ottelut, results, filename):
             file.write(f"### Ottelu: {tulos['ottelu']}\n")
             file.write(f"- Koti joukkueen keskiarvo maalit: {tulos['koti_maaleja']}\n")
             file.write(f"- Vieras joukkueen keskiarvo maalit: {tulos['vieras_maaleja']}\n")
-            file.write(f"- Kokonaismaalit: {tulos['total_goals']}\n")
-            file.write(f"- Yli 2.5 maalia: {'Kyllä' if tulos['yli_2_5'] else 'Ei'}\n")
+            file.write(f"- Kotiotteluiden yli 2.5 maalia pelissä: {tulos['koti_yli_2_5']}\n")
+            file.write(f"- Vierasotteluiden yli 2.5 maalia pelissä: {tulos['vieras_yli_2_5']}\n")
             file.write("\n")
     print(f"Tulokset tallennettu tiedostoon {filename}")
 
