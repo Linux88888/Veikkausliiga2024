@@ -51,27 +51,33 @@ def parse_tulevat_ottelut(data, teams):
                     print(f"Ei kelvollinen joukkue: {koti} vs {vieras}")  # Debug-tuloste
     return ottelut
 
-# Funktio, joka parsii yleisödata
+# Funktio, joka parsii yleisödata (tässä tapauksessa maalitiedot)
 def parse_yleiso_data(data):
     teams_data = {}
     current_team = None
     lines = data.splitlines()
     for line in lines:
+        print(f"Käsitellään rivi: {line}")  # Debug-tuloste
         if line.strip() and not line.startswith(' '):
             current_team = line.strip()
             teams_data[current_team] = {}
+            print(f"Nykyinen joukkue: {current_team}")  # Debug-tuloste
         elif current_team and 'Kotiotteluiden keskiarvo (maalit tehty):' in line:
             avg_goals = float(line.split(': ')[1])
             teams_data[current_team]['koti_maaleja'] = avg_goals
+            print(f"{current_team} koti_maaleja: {avg_goals}")  # Debug-tuloste
         elif current_team and 'Vierasotteluiden keskiarvo (maalit tehty):' in line:
             avg_goals = float(line.split(': ')[1])
             teams_data[current_team]['vieras_maaleja'] = avg_goals
+            print(f"{current_team} vieras_maaleja: {avg_goals}")  # Debug-tuloste
         elif current_team and 'Kotiotteluiden yli 2.5 maalia pelissä:' in line:
             over_2_5 = line.split(': ')[1]
             teams_data[current_team]['koti_yli_2_5'] = over_2_5
+            print(f"{current_team} koti_yli_2_5: {over_2_5}")  # Debug-tuloste
         elif current_team and 'Vierasotteluiden yli 2.5 maalia pelissä:' in line:
             over_2_5 = line.split(': ')[1]
             teams_data[current_team]['vieras_yli_2_5'] = over_2_5
+            print(f"{current_team} vieras_yli_2_5: {over_2_5}")  # Debug-tuloste
     return teams_data
 
 # Parsii datat
