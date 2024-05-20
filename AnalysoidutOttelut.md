@@ -1,26 +1,14 @@
 # Analysoidut Ottelut
 
 ## Tulevat Ottelut
-- Gnistan vs KuPS (Su 19.5.2024 klo 16:00)
-- EIF vs FC Lahti ( klo 18:30)
 - HJK vs Gnistan (Ke 22.5.2024 klo 18:00)
 - VPS vs KuPS ( klo 18:00)
 - Ilves vs FC Inter ( klo 20:00)
 - FC Haka vs AC Oulu (Pe 24.5.2024 klo 18:00)
+- HJK vs Ilves (La 25.5.2024 klo 17:00)
+- IFK Mariehamn vs Gnistan (Su 26.5.2024 klo 18:30)
 
 ## Ennusteet
-### Ottelu: Gnistan vs KuPS
-- Koti joukkueen keskiarvo maalit: 0
-- Vieras joukkueen keskiarvo maalit: 0
-- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
-- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
-
-### Ottelu: EIF vs FC Lahti
-- Koti joukkueen keskiarvo maalit: 0
-- Vieras joukkueen keskiarvo maalit: 0
-- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
-- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
-
 ### Ottelu: HJK vs Gnistan
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
@@ -40,6 +28,18 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
 ### Ottelu: FC Haka vs AC Oulu
+- Koti joukkueen keskiarvo maalit: 0
+- Vieras joukkueen keskiarvo maalit: 0
+- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
+- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
+
+### Ottelu: HJK vs Ilves
+- Koti joukkueen keskiarvo maalit: 0
+- Vieras joukkueen keskiarvo maalit: 0
+- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
+- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
+
+### Ottelu: IFK Mariehamn vs Gnistan
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
