@@ -1,12 +1,21 @@
-44 - Ke 22.5.2024 - 18:00 - HJK - Gnistan - Kokoonpanot |
+44 - Ke 22.5.2024 - 18:00 - HJK - Gnistan - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-45 -  - 18:00 - VPS - KuPS - Kokoonpanot |
+45 -  - 18:00 - VPS - KuPS - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-46 -  - 20:00 - Ilves - FC Inter - Kokoonpanot |
+46 -  - 20:00 - Ilves - FC Inter - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
