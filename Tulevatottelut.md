@@ -1,4 +1,7 @@
-47 - Pe 24.5.2024 - 18:00 - FC Haka - AC Oulu - Kokoonpanot |
+47 - Pe 24.5.2024 - 18:00 - FC Haka - AC Oulu - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
