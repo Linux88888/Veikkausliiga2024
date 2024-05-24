@@ -1,10 +1,10 @@
 # Veikkausliiga 2024 - Yleisömäärät, Maalit ja Yli 2.5 Maalia Pelissä
 
-### Veikkausliigan kokonaisyleisömäärä: 133052
-### Veikkausliigan keskiarvoyleisömäärä per peli: 2892.43
-### Veikkausliigan yli 2.5 maalia pelissä: 56.52% (26 / 46)
-### Veikkausliigan kokonaismäärä tehdyt maalit: 133
-### Veikkausliigan keskiarvo maalit per peli: 2.89
+### Veikkausliigan kokonaisyleisömäärä: 135241
+### Veikkausliigan keskiarvoyleisömäärä per peli: 2877.47
+### Veikkausliigan yli 2.5 maalia pelissä: 57.45% (27 / 47)
+### Veikkausliigan kokonaismäärä tehdyt maalit: 140
+### Veikkausliigan keskiarvo maalit per peli: 2.98
 
 ## HJK
 - Kotiotteluiden kokonaisyleisömäärä: 31660
@@ -79,12 +79,12 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: 0.00% (0 / 3)
 
 ## FC Haka
-- Kotiotteluiden kokonaisyleisömäärä: 7032
+- Kotiotteluiden kokonaisyleisömäärä: 9221
 - Vierasotteluiden kokonaisyleisömäärä: 10685
-- Kotiotteluiden keskiarvo (yleisö): 1758.00
-- Kotiotteluiden keskiarvo (maalit tehty): 1.50
-- Kotiotteluiden keskiarvo (maalit päästetty): 1.00
-- Kotiotteluiden yli 2.5 maalia pelissä: 50.00% (2 / 4)
+- Kotiotteluiden keskiarvo (yleisö): 1844.20
+- Kotiotteluiden keskiarvo (maalit tehty): 2.00
+- Kotiotteluiden keskiarvo (maalit päästetty): 1.40
+- Kotiotteluiden yli 2.5 maalia pelissä: 60.00% (3 / 5)
 - Vierasotteluiden keskiarvo (yleisö): 3561.67
 - Vierasotteluiden keskiarvo (maalit tehty): 1.33
 - Vierasotteluiden keskiarvo (maalit päästetty): 2.00
@@ -104,15 +104,15 @@
 
 ## AC Oulu
 - Kotiotteluiden kokonaisyleisömäärä: 4358
-- Vierasotteluiden kokonaisyleisömäärä: 10805
+- Vierasotteluiden kokonaisyleisömäärä: 12994
 - Kotiotteluiden keskiarvo (yleisö): 1452.67
 - Kotiotteluiden keskiarvo (maalit tehty): 1.00
 - Kotiotteluiden keskiarvo (maalit päästetty): 1.33
 - Kotiotteluiden yli 2.5 maalia pelissä: 33.33% (1 / 3)
-- Vierasotteluiden keskiarvo (yleisö): 2701.25
-- Vierasotteluiden keskiarvo (maalit tehty): 1.75
-- Vierasotteluiden keskiarvo (maalit päästetty): 2.25
-- Vierasotteluiden yli 2.5 maalia pelissä: 75.00% (3 / 4)
+- Vierasotteluiden keskiarvo (yleisö): 2598.80
+- Vierasotteluiden keskiarvo (maalit tehty): 2.00
+- Vierasotteluiden keskiarvo (maalit päästetty): 2.60
+- Vierasotteluiden yli 2.5 maalia pelissä: 80.00% (4 / 5)
 
 ## Gnistan
 - Kotiotteluiden kokonaisyleisömäärä: 8900
