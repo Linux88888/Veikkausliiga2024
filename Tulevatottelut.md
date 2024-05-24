@@ -1,11 +1,7 @@
-47 - Pe 24.5.2024 - 18:00 - FC Haka - AC Oulu - Ennakko |
+48 - La 25.5.2024 - 17:00 - HJK - Ilves - Ennakko |
         
         
           Kokoonpanot |
-        
-        
-          Seuranta - - - -
-48 - La 25.5.2024 - 17:00 - HJK - Ilves - Kokoonpanot |
         
         
           Seuranta - - - -
@@ -22,6 +18,10 @@
         
           Seuranta - - - -
 52 -  - 18:00 - VPS - FC Inter - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+53 - Pe 31.5.2024 - 18:00 - FC Inter - FC Haka - Kokoonpanot |
         
         
           Seuranta - - - -
