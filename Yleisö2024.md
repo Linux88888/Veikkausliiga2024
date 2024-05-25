@@ -1,18 +1,18 @@
 # Veikkausliiga 2024 - Yleisömäärät, Maalit ja Yli 2.5 Maalia Pelissä
 
-### Veikkausliigan kokonaisyleisömäärä: 135241
-### Veikkausliigan keskiarvoyleisömäärä per peli: 2877.47
-### Veikkausliigan yli 2.5 maalia pelissä: 57.45% (27 / 47)
-### Veikkausliigan kokonaismäärä tehdyt maalit: 140
-### Veikkausliigan keskiarvo maalit per peli: 2.98
+### Veikkausliigan kokonaisyleisömäärä: 142545
+### Veikkausliigan keskiarvoyleisömäärä per peli: 2969.69
+### Veikkausliigan yli 2.5 maalia pelissä: 56.25% (27 / 48)
+### Veikkausliigan kokonaismäärä tehdyt maalit: 142
+### Veikkausliigan keskiarvo maalit per peli: 2.96
 
 ## HJK
-- Kotiotteluiden kokonaisyleisömäärä: 31660
+- Kotiotteluiden kokonaisyleisömäärä: 38964
 - Vierasotteluiden kokonaisyleisömäärä: 11244
-- Kotiotteluiden keskiarvo (yleisö): 6332.00
-- Kotiotteluiden keskiarvo (maalit tehty): 1.60
-- Kotiotteluiden keskiarvo (maalit päästetty): 0.60
-- Kotiotteluiden yli 2.5 maalia pelissä: 60.00% (3 / 5)
+- Kotiotteluiden keskiarvo (yleisö): 6494.00
+- Kotiotteluiden keskiarvo (maalit tehty): 1.50
+- Kotiotteluiden keskiarvo (maalit päästetty): 0.67
+- Kotiotteluiden yli 2.5 maalia pelissä: 50.00% (3 / 6)
 - Vierasotteluiden keskiarvo (yleisö): 2811.00
 - Vierasotteluiden keskiarvo (maalit tehty): 1.50
 - Vierasotteluiden keskiarvo (maalit päästetty): 1.75
@@ -68,15 +68,15 @@
 
 ## Ilves
 - Kotiotteluiden kokonaisyleisömäärä: 24905
-- Vierasotteluiden kokonaisyleisömäärä: 4744
+- Vierasotteluiden kokonaisyleisömäärä: 12048
 - Kotiotteluiden keskiarvo (yleisö): 4981.00
 - Kotiotteluiden keskiarvo (maalit tehty): 3.00
 - Kotiotteluiden keskiarvo (maalit päästetty): 1.60
 - Kotiotteluiden yli 2.5 maalia pelissä: 80.00% (4 / 5)
-- Vierasotteluiden keskiarvo (yleisö): 1581.33
+- Vierasotteluiden keskiarvo (yleisö): 3012.00
 - Vierasotteluiden keskiarvo (maalit tehty): 1.00
-- Vierasotteluiden keskiarvo (maalit päästetty): 0.33
-- Vierasotteluiden yli 2.5 maalia pelissä: 0.00% (0 / 3)
+- Vierasotteluiden keskiarvo (maalit päästetty): 0.50
+- Vierasotteluiden yli 2.5 maalia pelissä: 0.00% (0 / 4)
 
 ## FC Haka
 - Kotiotteluiden kokonaisyleisömäärä: 9221
