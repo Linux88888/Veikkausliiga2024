@@ -1,15 +1,14 @@
-48 - La 25.5.2024 - 17:00 - HJK - Ilves - Ennakko |
+49 - Su 26.5.2024 - 18:30 - IFK Mariehamn - Gnistan - Ennakko |
         
         
           Kokoonpanot |
         
         
           Seuranta - - - -
-49 - Su 26.5.2024 - 18:30 - IFK Mariehamn - Gnistan - Kokoonpanot |
+50 -  - 18:30 - KuPS - EIF - Ennakko |
         
         
-          Seuranta - - - -
-50 -  - 18:30 - KuPS - EIF - Kokoonpanot |
+          Kokoonpanot |
         
         
           Seuranta - - - -
@@ -22,6 +21,10 @@
         
           Seuranta - - - -
 53 - Pe 31.5.2024 - 18:00 - FC Inter - FC Haka - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+54 -  - 18:00 - Ilves - KuPS - Kokoonpanot |
         
         
           Seuranta - - - -
