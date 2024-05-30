@@ -1,16 +1,28 @@
-53 - Pe 31.5.2024 - 18:00 - FC Inter - FC Haka - Kokoonpanot |
+53 - Pe 31.5.2024 - 18:00 - FC Inter - FC Haka - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-54 -  - 18:00 - Ilves - KuPS - Kokoonpanot |
+54 -  - 18:00 - Ilves - KuPS - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-55 -  - 18:00 - SJK - IFK Mariehamn - Kokoonpanot |
+55 -  - 18:00 - SJK - IFK Mariehamn - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-56 -  - 20:00 - AC Oulu - HJK - Kokoonpanot |
+56 -  - 20:00 - AC Oulu - HJK - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
