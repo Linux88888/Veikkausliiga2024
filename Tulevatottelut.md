@@ -1,8 +1,14 @@
-57 - Su 2.6.2024 - 16:00 - Gnistan - FC Lahti - Kokoonpanot |
+57 - Su 2.6.2024 - 16:00 - Gnistan - FC Lahti - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-58 -  - 18:30 - EIF - VPS - Kokoonpanot |
+58 -  - 18:30 - EIF - VPS - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
