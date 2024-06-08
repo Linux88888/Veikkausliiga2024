@@ -1,17 +1,3 @@
-63 - La 8.6.2024 - 17:00 - EIF - Gnistan - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
-64 -  - 17:00 - KuPS - AC Oulu - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
 65 - Ke 12.6.2024 - 18:00 - AC Oulu - FC Lahti - Kokoonpanot |
         
         
@@ -25,6 +11,14 @@
         
           Seuranta - - - -
 68 -  - 18:00 - KuPS - FC Haka - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+69 -  - 18:00 - SJK - EIF - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+70 -  - 19:00 - Gnistan - HJK - Kokoonpanot |
         
         
           Seuranta - - - -
