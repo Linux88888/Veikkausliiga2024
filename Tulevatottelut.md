@@ -1,43 +1,24 @@
-65 - Ke 12.6.2024 - 18:00 - AC Oulu - FC Lahti - Ennakko |
-        
-        
-          Kokoonpanot |
+71 - Ke 19.6.2024 - 21:00 - EIF - IFK Mariehamn - Kokoonpanot |
         
         
           Seuranta - - - -
-66 -  - 18:00 - FC Inter - Ilves - Kokoonpanot |
-        
-        
-          Seuranta
-        
-        
-        
-          | Raportti - - - -
-67 -  - 18:00 - IFK Mariehamn - VPS - Ennakko |
-        
-        
-          Kokoonpanot |
+72 -  - 21:00 - FC Haka - FC Inter - Kokoonpanot |
         
         
           Seuranta - - - -
-68 -  - 18:00 - KuPS - FC Haka - Ennakko |
-        
-        
-          Kokoonpanot |
+73 -  - 21:00 - FC Lahti - Gnistan - Kokoonpanot |
         
         
           Seuranta - - - -
-69 -  - 18:00 - SJK - EIF - Ennakko |
-        
-        
-          Kokoonpanot |
+74 -  - 21:00 - HJK - KuPS - Kokoonpanot |
         
         
           Seuranta - - - -
-70 -  - 19:00 - Gnistan - HJK - Ennakko |
+75 -  - 21:00 - Ilves - SJK - Kokoonpanot |
         
         
-          Kokoonpanot |
+          Seuranta - - - -
+76 -  - 21:00 - VPS - AC Oulu - Kokoonpanot |
         
         
           Seuranta - - - -
