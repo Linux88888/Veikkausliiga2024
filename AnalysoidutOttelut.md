@@ -1,45 +1,45 @@
 # Analysoidut Ottelut
 
 ## Tulevat Ottelut
-- EIF vs IFK Mariehamn (Ke 19.6.2024 klo 21:00)
-- FC Haka vs FC Inter ( klo 21:00)
-- FC Lahti vs Gnistan ( klo 21:00)
-- HJK vs KuPS ( klo 21:00)
-- Ilves vs SJK ( klo 21:00)
-- VPS vs AC Oulu ( klo 21:00)
+- FC Inter vs VPS (Pe 28.6.2024 klo 18:00)
+- AC Oulu vs KuPS ( klo 20:00)
+- SJK vs FC Haka (La 29.6.2024 klo 12:00)
+- FC Lahti vs Ilves ( klo 19:00)
+- Gnistan vs EIF (Su 30.6.2024 klo 16:00)
+- IFK Mariehamn vs HJK ( klo 16:00)
 
 ## Ennusteet
-### Ottelu: EIF vs IFK Mariehamn
+### Ottelu: FC Inter vs VPS
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
-### Ottelu: FC Haka vs FC Inter
+### Ottelu: AC Oulu vs KuPS
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
-### Ottelu: FC Lahti vs Gnistan
+### Ottelu: SJK vs FC Haka
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
-### Ottelu: HJK vs KuPS
+### Ottelu: FC Lahti vs Ilves
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
-### Ottelu: Ilves vs SJK
+### Ottelu: Gnistan vs EIF
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
-### Ottelu: VPS vs AC Oulu
+### Ottelu: IFK Mariehamn vs HJK
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
