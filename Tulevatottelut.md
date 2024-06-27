@@ -1,8 +1,14 @@
-77 - Pe 28.6.2024 - 18:00 - FC Inter - VPS - Kokoonpanot |
+77 - Pe 28.6.2024 - 18:00 - FC Inter - VPS - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-78 -  - 20:00 - AC Oulu - KuPS - Kokoonpanot |
+78 -  - 20:00 - AC Oulu - KuPS - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
