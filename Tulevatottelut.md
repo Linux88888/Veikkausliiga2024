@@ -1,22 +1,14 @@
-77 - Pe 28.6.2024 - 18:00 - FC Inter - VPS - Ennakko |
+79 - La 29.6.2024 - 12:00 - SJK - FC Haka - Ennakko |
         
         
           Kokoonpanot |
         
         
           Seuranta - - - -
-78 -  - 20:00 - AC Oulu - KuPS - Ennakko |
+80 -  - 19:00 - FC Lahti - Ilves - Ennakko |
         
         
           Kokoonpanot |
-        
-        
-          Seuranta - - - -
-79 - La 29.6.2024 - 12:00 - SJK - FC Haka - Kokoonpanot |
-        
-        
-          Seuranta - - - -
-80 -  - 19:00 - FC Lahti - Ilves - Kokoonpanot |
         
         
           Seuranta - - - -
@@ -25,6 +17,14 @@
         
           Seuranta - - - -
 82 -  - 16:00 - IFK Mariehamn - HJK - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+83 - La 6.7.2024 - 15:00 - Ilves - HJK - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+84 -  - 17:00 - VPS - EIF - Kokoonpanot |
         
         
           Seuranta - - - -
