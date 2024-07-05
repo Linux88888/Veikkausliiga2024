@@ -1,8 +1,14 @@
-83 - La 6.7.2024 - 15:00 - Ilves - HJK - Kokoonpanot |
+83 - La 6.7.2024 - 15:00 - Ilves - HJK - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-84 -  - 17:00 - VPS - EIF - Kokoonpanot |
+84 -  - 17:00 - VPS - EIF - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
