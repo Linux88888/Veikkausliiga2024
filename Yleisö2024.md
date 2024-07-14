@@ -1,10 +1,10 @@
 # Veikkausliiga 2024 - Yleisömäärät, Maalit ja Yli 2.5 Maalia Pelissä
 
-### Veikkausliigan kokonaisyleisömäärä: 257634
-### Veikkausliigan keskiarvoyleisömäärä per peli: 2927.66
-### Veikkausliigan yli 2.5 maalia pelissä: 61.36% (54 / 88)
-### Veikkausliigan kokonaismäärä tehdyt maalit: 263
-### Veikkausliigan keskiarvo maalit per peli: 2.99
+### Veikkausliigan kokonaisyleisömäärä: 261132
+### Veikkausliigan keskiarvoyleisömäärä per peli: 2901.47
+### Veikkausliigan yli 2.5 maalia pelissä: 62.22% (56 / 90)
+### Veikkausliigan kokonaismäärä tehdyt maalit: 273
+### Veikkausliigan keskiarvo maalit per peli: 3.03
 
 ## HJK
 - Kotiotteluiden kokonaisyleisömäärä: 50471
@@ -32,15 +32,15 @@
 
 ## FC Inter
 - Kotiotteluiden kokonaisyleisömäärä: 20974
-- Vierasotteluiden kokonaisyleisömäärä: 17039
+- Vierasotteluiden kokonaisyleisömäärä: 18617
 - Kotiotteluiden keskiarvo (yleisö): 2621.75
 - Kotiotteluiden keskiarvo (maalit tehty): 1.88
 - Kotiotteluiden keskiarvo (maalit päästetty): 1.25
 - Kotiotteluiden yli 2.5 maalia pelissä: 62.50% (5 / 8)
-- Vierasotteluiden keskiarvo (yleisö): 2434.14
-- Vierasotteluiden keskiarvo (maalit tehty): 0.86
-- Vierasotteluiden keskiarvo (maalit päästetty): 2.00
-- Vierasotteluiden yli 2.5 maalia pelissä: 71.43% (5 / 7)
+- Vierasotteluiden keskiarvo (yleisö): 2327.12
+- Vierasotteluiden keskiarvo (maalit tehty): 1.62
+- Vierasotteluiden keskiarvo (maalit päästetty): 1.75
+- Vierasotteluiden yli 2.5 maalia pelissä: 75.00% (6 / 8)
 
 ## SJK
 - Kotiotteluiden kokonaisyleisömäärä: 22218
@@ -55,12 +55,12 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: 57.14% (4 / 7)
 
 ## FC Lahti
-- Kotiotteluiden kokonaisyleisömäärä: 13516
+- Kotiotteluiden kokonaisyleisömäärä: 15436
 - Vierasotteluiden kokonaisyleisömäärä: 20209
-- Kotiotteluiden keskiarvo (yleisö): 1930.86
-- Kotiotteluiden keskiarvo (maalit tehty): 1.29
-- Kotiotteluiden keskiarvo (maalit päästetty): 1.86
-- Kotiotteluiden yli 2.5 maalia pelissä: 57.14% (4 / 7)
+- Kotiotteluiden keskiarvo (yleisö): 1929.50
+- Kotiotteluiden keskiarvo (maalit tehty): 1.25
+- Kotiotteluiden keskiarvo (maalit päästetty): 1.88
+- Kotiotteluiden yli 2.5 maalia pelissä: 62.50% (5 / 8)
 - Vierasotteluiden keskiarvo (yleisö): 2887.00
 - Vierasotteluiden keskiarvo (maalit tehty): 0.57
 - Vierasotteluiden keskiarvo (maalit päästetty): 2.14
@@ -104,15 +104,15 @@
 
 ## AC Oulu
 - Kotiotteluiden kokonaisyleisömäärä: 14185
-- Vierasotteluiden kokonaisyleisömäärä: 19264
+- Vierasotteluiden kokonaisyleisömäärä: 21184
 - Kotiotteluiden keskiarvo (yleisö): 2026.43
 - Kotiotteluiden keskiarvo (maalit tehty): 1.14
 - Kotiotteluiden keskiarvo (maalit päästetty): 1.14
 - Kotiotteluiden yli 2.5 maalia pelissä: 42.86% (3 / 7)
-- Vierasotteluiden keskiarvo (yleisö): 2752.00
-- Vierasotteluiden keskiarvo (maalit tehty): 1.71
-- Vierasotteluiden keskiarvo (maalit päästetty): 2.57
-- Vierasotteluiden yli 2.5 maalia pelissä: 71.43% (5 / 7)
+- Vierasotteluiden keskiarvo (yleisö): 2648.00
+- Vierasotteluiden keskiarvo (maalit tehty): 1.75
+- Vierasotteluiden keskiarvo (maalit päästetty): 2.38
+- Vierasotteluiden yli 2.5 maalia pelissä: 75.00% (6 / 8)
 
 ## Gnistan
 - Kotiotteluiden kokonaisyleisömäärä: 16172
@@ -139,12 +139,12 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: 50.00% (3 / 6)
 
 ## EIF
-- Kotiotteluiden kokonaisyleisömäärä: 7466
+- Kotiotteluiden kokonaisyleisömäärä: 9044
 - Vierasotteluiden kokonaisyleisömäärä: 20539
-- Kotiotteluiden keskiarvo (yleisö): 1244.33
-- Kotiotteluiden keskiarvo (maalit tehty): 0.83
-- Kotiotteluiden keskiarvo (maalit päästetty): 1.33
-- Kotiotteluiden yli 2.5 maalia pelissä: 33.33% (2 / 6)
+- Kotiotteluiden keskiarvo (yleisö): 1292.00
+- Kotiotteluiden keskiarvo (maalit tehty): 0.71
+- Kotiotteluiden keskiarvo (maalit päästetty): 2.14
+- Kotiotteluiden yli 2.5 maalia pelissä: 42.86% (3 / 7)
 - Vierasotteluiden keskiarvo (yleisö): 2567.38
 - Vierasotteluiden keskiarvo (maalit tehty): 1.38
 - Vierasotteluiden keskiarvo (maalit päästetty): 2.12
