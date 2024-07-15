@@ -1,10 +1,10 @@
 # Veikkausliiga 2024 - Yleisömäärät, Maalit ja Yli 2.5 Maalia Pelissä
 
-### Veikkausliigan kokonaisyleisömäärä: 261132
-### Veikkausliigan keskiarvoyleisömäärä per peli: 2901.47
-### Veikkausliigan yli 2.5 maalia pelissä: 62.22% (56 / 90)
-### Veikkausliigan kokonaismäärä tehdyt maalit: 273
-### Veikkausliigan keskiarvo maalit per peli: 3.03
+### Veikkausliigan kokonaisyleisömäärä: 265479
+### Veikkausliigan keskiarvoyleisömäärä per peli: 2917.35
+### Veikkausliigan yli 2.5 maalia pelissä: 62.64% (57 / 91)
+### Veikkausliigan kokonaismäärä tehdyt maalit: 280
+### Veikkausliigan keskiarvo maalit per peli: 3.08
 
 ## HJK
 - Kotiotteluiden kokonaisyleisömäärä: 50471
@@ -68,23 +68,23 @@
 
 ## Ilves
 - Kotiotteluiden kokonaisyleisömäärä: 45020
-- Vierasotteluiden kokonaisyleisömäärä: 20344
+- Vierasotteluiden kokonaisyleisömäärä: 24691
 - Kotiotteluiden keskiarvo (yleisö): 5627.50
 - Kotiotteluiden keskiarvo (maalit tehty): 2.62
 - Kotiotteluiden keskiarvo (maalit päästetty): 1.50
 - Kotiotteluiden yli 2.5 maalia pelissä: 87.50% (7 / 8)
-- Vierasotteluiden keskiarvo (yleisö): 2906.29
-- Vierasotteluiden keskiarvo (maalit tehty): 1.29
-- Vierasotteluiden keskiarvo (maalit päästetty): 0.71
-- Vierasotteluiden yli 2.5 maalia pelissä: 14.29% (1 / 7)
+- Vierasotteluiden keskiarvo (yleisö): 3086.38
+- Vierasotteluiden keskiarvo (maalit tehty): 1.50
+- Vierasotteluiden keskiarvo (maalit päästetty): 1.12
+- Vierasotteluiden yli 2.5 maalia pelissä: 25.00% (2 / 8)
 
 ## FC Haka
-- Kotiotteluiden kokonaisyleisömäärä: 13581
+- Kotiotteluiden kokonaisyleisömäärä: 17928
 - Vierasotteluiden kokonaisyleisömäärä: 20300
-- Kotiotteluiden keskiarvo (yleisö): 1940.14
-- Kotiotteluiden keskiarvo (maalit tehty): 1.71
-- Kotiotteluiden keskiarvo (maalit päästetty): 1.00
-- Kotiotteluiden yli 2.5 maalia pelissä: 42.86% (3 / 7)
+- Kotiotteluiden keskiarvo (yleisö): 2241.00
+- Kotiotteluiden keskiarvo (maalit tehty): 2.00
+- Kotiotteluiden keskiarvo (maalit päästetty): 1.25
+- Kotiotteluiden yli 2.5 maalia pelissä: 50.00% (4 / 8)
 - Vierasotteluiden keskiarvo (yleisö): 2900.00
 - Vierasotteluiden keskiarvo (maalit tehty): 1.43
 - Vierasotteluiden keskiarvo (maalit päästetty): 1.57
