@@ -1,8 +1,14 @@
-92 - La 20.7.2024 - 17:00 - AC Oulu - EIF - Kokoonpanot |
+92 - La 20.7.2024 - 17:00 - AC Oulu - EIF - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-93 -  - 17:00 - HJK - FC Haka - Kokoonpanot |
+93 -  - 17:00 - HJK - FC Haka - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
