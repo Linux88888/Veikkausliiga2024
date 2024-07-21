@@ -1,25 +1,7 @@
-94 - Su 21.7.2024 - 15:00 - IFK Mariehamn - SJK - Ennakko |
+97 - Ma 22.7.2024 - 18:00 - FC Inter - Gnistan - Ennakko |
         
         
           Kokoonpanot |
-        
-        
-          Seuranta - - - -
-95 -  - 17:00 - Ilves - VPS - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
-96 -  - 18:30 - KuPS - FC Lahti - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
-97 - Ma 22.7.2024 - 18:00 - FC Inter - Gnistan - Kokoonpanot |
         
         
           Seuranta - - - -
@@ -28,6 +10,18 @@
         
           Seuranta - - - -
 99 -  - 17:00 - SJK - FC Lahti - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+100 - Su 28.7.2024 - 15:00 - FC Haka - Gnistan - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+101 -  - 17:00 - EIF - KuPS - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+102 -  - 18:30 - VPS - IFK Mariehamn - Kokoonpanot |
         
         
           Seuranta - - - -
