@@ -1,10 +1,3 @@
-97 - Ma 22.7.2024 - 18:00 - FC Inter - Gnistan - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
 98 - La 27.7.2024 - 17:00 - HJK - AC Oulu - Kokoonpanot |
         
         
@@ -22,6 +15,10 @@
         
           Seuranta - - - -
 102 -  - 18:30 - VPS - IFK Mariehamn - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+103 - Pe 2.8.2024 - 18:00 - FC Inter - IFK Mariehamn - Kokoonpanot |
         
         
           Seuranta - - - -
