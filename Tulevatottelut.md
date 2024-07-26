@@ -1,8 +1,14 @@
-98 - La 27.7.2024 - 17:00 - HJK - AC Oulu - Kokoonpanot |
+98 - La 27.7.2024 - 17:00 - HJK - AC Oulu - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-99 -  - 17:00 - SJK - FC Lahti - Kokoonpanot |
+99 -  - 17:00 - SJK - FC Lahti - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
