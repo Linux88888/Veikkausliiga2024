@@ -1,24 +1,3 @@
-100 - Su 28.7.2024 - 15:00 - FC Haka - Gnistan - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
-101 -  - 17:00 - EIF - KuPS - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
-102 -  - 18:30 - VPS - IFK Mariehamn - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
 103 - Pe 2.8.2024 - 18:00 - FC Inter - IFK Mariehamn - Kokoonpanot |
         
         
@@ -28,6 +7,18 @@
         
           Seuranta - - - -
 105 - Su 4.8.2024 - 16:00 - AC Oulu - Ilves - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+106 -  - 18:30 - EIF - FC Haka - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+107 -  - 18:30 - Gnistan - VPS - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+108 -  - 18:30 - KuPS - SJK - Kokoonpanot |
         
         
           Seuranta - - - -
