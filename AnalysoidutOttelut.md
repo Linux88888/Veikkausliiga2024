@@ -1,32 +1,14 @@
 # Analysoidut Ottelut
 
 ## Tulevat Ottelut
-- FC Haka vs Gnistan (Su 28.7.2024 klo 15:00)
-- EIF vs KuPS ( klo 17:00)
-- VPS vs IFK Mariehamn ( klo 18:30)
 - FC Inter vs IFK Mariehamn (Pe 2.8.2024 klo 18:00)
 - FC Lahti vs HJK (La 3.8.2024 klo 19:00)
 - AC Oulu vs Ilves (Su 4.8.2024 klo 16:00)
+- EIF vs FC Haka ( klo 18:30)
+- Gnistan vs VPS ( klo 18:30)
+- KuPS vs SJK ( klo 18:30)
 
 ## Ennusteet
-### Ottelu: FC Haka vs Gnistan
-- Koti joukkueen keskiarvo maalit: 0
-- Vieras joukkueen keskiarvo maalit: 0
-- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
-- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
-
-### Ottelu: EIF vs KuPS
-- Koti joukkueen keskiarvo maalit: 0
-- Vieras joukkueen keskiarvo maalit: 0
-- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
-- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
-
-### Ottelu: VPS vs IFK Mariehamn
-- Koti joukkueen keskiarvo maalit: 0
-- Vieras joukkueen keskiarvo maalit: 0
-- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
-- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
-
 ### Ottelu: FC Inter vs IFK Mariehamn
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
@@ -40,6 +22,24 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
 ### Ottelu: AC Oulu vs Ilves
+- Koti joukkueen keskiarvo maalit: 0
+- Vieras joukkueen keskiarvo maalit: 0
+- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
+- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
+
+### Ottelu: EIF vs FC Haka
+- Koti joukkueen keskiarvo maalit: 0
+- Vieras joukkueen keskiarvo maalit: 0
+- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
+- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
+
+### Ottelu: Gnistan vs VPS
+- Koti joukkueen keskiarvo maalit: 0
+- Vieras joukkueen keskiarvo maalit: 0
+- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
+- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
+
+### Ottelu: KuPS vs SJK
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
