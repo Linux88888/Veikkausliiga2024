@@ -1,11 +1,7 @@
-103 - Pe 2.8.2024 - 18:00 - FC Inter - IFK Mariehamn - Ennakko |
+104 - La 3.8.2024 - 19:00 - FC Lahti - HJK - Ennakko |
         
         
           Kokoonpanot |
-        
-        
-          Seuranta - - - -
-104 - La 3.8.2024 - 19:00 - FC Lahti - HJK - Kokoonpanot |
         
         
           Seuranta - - - -
@@ -22,6 +18,10 @@
         
           Seuranta - - - -
 108 -  - 18:30 - KuPS - SJK - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+109 - Pe 9.8.2024 - 18:00 - FC Lahti - EIF - Kokoonpanot |
         
         
           Seuranta - - - -
