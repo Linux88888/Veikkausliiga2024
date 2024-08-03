@@ -1,27 +1,36 @@
-104 - La 3.8.2024 - 19:00 - FC Lahti - HJK - Ennakko |
+105 - Su 4.8.2024 - 16:00 - AC Oulu - Ilves - Ennakko |
         
         
           Kokoonpanot |
         
         
           Seuranta - - - -
-105 - Su 4.8.2024 - 16:00 - AC Oulu - Ilves - Kokoonpanot |
+106 -  - 18:30 - EIF - FC Haka - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-106 -  - 18:30 - EIF - FC Haka - Kokoonpanot |
+107 -  - 18:30 - Gnistan - VPS - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
-107 -  - 18:30 - Gnistan - VPS - Kokoonpanot |
+108 -  - 18:30 - KuPS - SJK - Ennakko |
         
         
-          Seuranta - - - -
-108 -  - 18:30 - KuPS - SJK - Kokoonpanot |
+          Kokoonpanot |
         
         
           Seuranta - - - -
 109 - Pe 9.8.2024 - 18:00 - FC Lahti - EIF - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+110 - La 10.8.2024 - 17:00 - AC Oulu - FC Inter - Kokoonpanot |
         
         
           Seuranta - - - -
