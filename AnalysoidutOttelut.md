@@ -1,20 +1,14 @@
 # Analysoidut Ottelut
 
 ## Tulevat Ottelut
-- FC Lahti vs HJK (La 3.8.2024 klo 19:00)
 - AC Oulu vs Ilves (Su 4.8.2024 klo 16:00)
 - EIF vs FC Haka ( klo 18:30)
 - Gnistan vs VPS ( klo 18:30)
 - KuPS vs SJK ( klo 18:30)
 - FC Lahti vs EIF (Pe 9.8.2024 klo 18:00)
+- AC Oulu vs FC Inter (La 10.8.2024 klo 17:00)
 
 ## Ennusteet
-### Ottelu: FC Lahti vs HJK
-- Koti joukkueen keskiarvo maalit: 0
-- Vieras joukkueen keskiarvo maalit: 0
-- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
-- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
-
 ### Ottelu: AC Oulu vs Ilves
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
@@ -40,6 +34,12 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
 ### Ottelu: FC Lahti vs EIF
+- Koti joukkueen keskiarvo maalit: 0
+- Vieras joukkueen keskiarvo maalit: 0
+- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
+- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
+
+### Ottelu: AC Oulu vs FC Inter
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
