@@ -1,4 +1,7 @@
-109 - Pe 9.8.2024 - 18:00 - FC Lahti - EIF - Kokoonpanot |
+109 - Pe 9.8.2024 - 18:00 - FC Lahti - EIF - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
