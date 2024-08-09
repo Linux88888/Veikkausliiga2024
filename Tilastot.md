@@ -11,9 +11,9 @@
 |7. | FC Inter | 18 | 7 | 4 | 7 | 33 | 26 | 7 | 25 | 179 | 18,44 | 184 | 46 | 2 | 32 | 25|
 |8. | Gnistan | 18 | 5 | 5 | 8 | 26 | 32 | -6 | 18 | 158 | 16,46 | 196 | 54 | 1 | 24 | 20|
 |9. | AC Oulu | 18 | 4 | 6 | 8 | 24 | 31 | -7 | 16 | 158 | 15,19 | 251 | 52 | 5 | 28 | 18|
-|10. | IFK Mariehamn | 17 | 4 | 4 | 9 | 17 | 30 | -13 | 9 | 127 | 13,39 | 182 | 41 | 4 | 22 | 16|
-|11. | FC Lahti | 18 | 2 | 7 | 9 | 21 | 37 | -16 | 16 | 152 | 13,82 | 184 | 45 | 1 | 27 | 13|
-|12. | EIF | 18 | 3 | 3 | 12 | 18 | 38 | -20 | 10 | 140 | 12,86 | 189 | 53 | 4 | 21 | 12|
+|10. | FC Lahti | 19 | 3 | 7 | 9 | 25 | 37 | -12 | 20 | 163 | 15,34 | 191 | 45 | 1 | 31 | 16|
+|11. | IFK Mariehamn | 17 | 4 | 4 | 9 | 17 | 30 | -13 | 9 | 127 | 13,39 | 182 | 41 | 4 | 22 | 16|
+|12. | EIF | 19 | 3 | 3 | 13 | 18 | 42 | -24 | 10 | 152 | 11,84 | 195 | 53 | 4 | 23 | 12|
 
 # Pelaajien pisteet
 * Coffey, Ashley Mark: 22.3 pistettä
@@ -22,11 +22,11 @@
 * Odutayo, Colin: 8.8 pistettä
 * Plange, Luke Elliot: 16.9 pistettä
 
-**Kokonaispisteet joukkueille: 3**
+**Kokonaispisteet joukkueille: 4**
 
 **Kokonaispisteet pelaajille: 81.9**
 
-**Yhteispisteet: 84.9**
+**Yhteispisteet: 85.9**
 
 # Veikattu Sarjataulukko
 | Sijoitus | Joukkue |
