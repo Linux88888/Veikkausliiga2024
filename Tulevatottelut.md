@@ -1,11 +1,7 @@
-109 - Pe 9.8.2024 - 18:00 - FC Lahti - EIF - Ennakko |
+110 - La 10.8.2024 - 17:00 - AC Oulu - FC Inter - Ennakko |
         
         
           Kokoonpanot |
-        
-        
-          Seuranta - - - -
-110 - La 10.8.2024 - 17:00 - AC Oulu - FC Inter - Kokoonpanot |
         
         
           Seuranta - - - -
@@ -22,6 +18,10 @@
         
           Seuranta - - - -
 114 - Pe 16.8.2024 - 18:15 - FC Inter - SJK - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+115 - Su 18.8.2024 - 16:00 - EIF - HJK - Kokoonpanot |
         
         
           Seuranta - - - -
