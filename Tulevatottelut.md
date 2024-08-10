@@ -1,15 +1,14 @@
-110 - La 10.8.2024 - 17:00 - AC Oulu - FC Inter - Ennakko |
+111 - Su 11.8.2024 - 15:00 - Ilves - IFK Mariehamn - Ennakko |
         
         
           Kokoonpanot |
         
         
           Seuranta - - - -
-111 - Su 11.8.2024 - 15:00 - Ilves - IFK Mariehamn - Kokoonpanot |
+112 -  - 17:00 - FC Haka - KuPS - Ennakko |
         
         
-          Seuranta - - - -
-112 -  - 17:00 - FC Haka - KuPS - Kokoonpanot |
+          Kokoonpanot |
         
         
           Seuranta - - - -
@@ -22,6 +21,10 @@
         
           Seuranta - - - -
 115 - Su 18.8.2024 - 16:00 - EIF - HJK - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+116 -  - 16:00 - Gnistan - AC Oulu - Kokoonpanot |
         
         
           Seuranta - - - -
