@@ -1,18 +1,7 @@
-111 - Su 11.8.2024 - 15:00 - Ilves - IFK Mariehamn - Ennakko |
+113 - Ma 12.8.2024 - 19:00 - SJK - VPS - Ennakko |
         
         
           Kokoonpanot |
-        
-        
-          Seuranta - - - -
-112 -  - 17:00 - FC Haka - KuPS - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
-113 - Ma 12.8.2024 - 19:00 - SJK - VPS - Kokoonpanot |
         
         
           Seuranta - - - -
@@ -25,6 +14,14 @@
         
           Seuranta - - - -
 116 -  - 16:00 - Gnistan - AC Oulu - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+117 -  - 16:00 - KuPS - Ilves - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+118 -  - 18:30 - IFK Mariehamn - FC Lahti - Kokoonpanot |
         
         
           Seuranta - - - -
