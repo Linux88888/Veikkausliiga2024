@@ -1,10 +1,3 @@
-113 - Ma 12.8.2024 - 19:00 - SJK - VPS - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
 114 - Pe 16.8.2024 - 18:15 - FC Inter - SJK - Kokoonpanot |
         
         
@@ -22,6 +15,10 @@
         
           Seuranta - - - -
 118 -  - 18:30 - IFK Mariehamn - FC Lahti - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+119 -  - 18:30 - VPS - FC Haka - Kokoonpanot |
         
         
           Seuranta - - - -
