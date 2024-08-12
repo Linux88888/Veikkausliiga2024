@@ -4,10 +4,10 @@
 |# | Joukkue | O | V | T | H | TM | PM | ME | S | L | L% | R | KK | PK | PA | P|
 |1. | KuPS | 19 | 11 | 5 | 3 | 34 | 20 | 14 | 14 | 215 | 15,81 | 192 | 26 | 1 | 26 | 38|
 |2. | Ilves | 19 | 10 | 5 | 4 | 39 | 23 | 16 | 32 | 210 | 18,57 | 209 | 47 | 4 | 35 | 35|
-|3. | HJK | 19 | 10 | 4 | 5 | 34 | 20 | 14 | 24 | 259 | 13,13 | 200 | 32 | 1 | 29 | 34|
-|4. | SJK | 18 | 9 | 5 | 4 | 36 | 27 | 9 | 23 | 217 | 16,59 | 225 | 43 | 0 | 34 | 32|
-|5. | FC Haka | 19 | 9 | 4 | 6 | 31 | 28 | 3 | 24 | 167 | 18,56 | 248 | 55 | 1 | 37 | 31|
-|6. | VPS | 18 | 8 | 4 | 6 | 29 | 28 | 1 | 16 | 206 | 14,08 | 207 | 33 | 1 | 31 | 28|
+|3. | SJK | 19 | 10 | 5 | 4 | 39 | 28 | 11 | 26 | 237 | 16,46 | 235 | 46 | 0 | 36 | 35|
+|4. | HJK | 19 | 10 | 4 | 5 | 34 | 20 | 14 | 24 | 259 | 13,13 | 200 | 32 | 1 | 29 | 34|
+|5. | FC Haka | 19 | 9 | 4 | 6 | 31 | 28 | 3 | 23 | 167 | 18,56 | 248 | 55 | 1 | 37 | 31|
+|6. | VPS | 19 | 8 | 4 | 7 | 30 | 31 | -1 | 17 | 216 | 13,89 | 218 | 34 | 2 | 31 | 28|
 |7. | FC Inter | 19 | 7 | 4 | 8 | 33 | 27 | 6 | 25 | 191 | 17,28 | 199 | 47 | 2 | 35 | 25|
 |8. | AC Oulu | 19 | 5 | 6 | 8 | 25 | 31 | -6 | 16 | 161 | 15,53 | 264 | 53 | 5 | 30 | 21|
 |9. | Gnistan | 18 | 5 | 5 | 8 | 26 | 32 | -6 | 18 | 158 | 16,46 | 196 | 54 | 1 | 24 | 20|
@@ -17,16 +17,16 @@
 
 # Pelaajien pisteet
 * Coffey, Ashley Mark: 22.3 pistettä
-* Karjalainen, Rasmus: 14.0 pistettä
-* Moreno Ciorciari, Jaime Jose: 19.9 pistettä
+* Karjalainen, Rasmus: 16.8 pistettä
+* Moreno Ciorciari, Jaime Jose: 22.8 pistettä
 * Odutayo, Colin: 8.8 pistettä
 * Plange, Luke Elliot: 16.9 pistettä
 
-**Kokonaispisteet joukkueille: 3**
+**Kokonaispisteet joukkueille: 2**
 
-**Kokonaispisteet pelaajille: 81.9**
+**Kokonaispisteet pelaajille: 87.6**
 
-**Yhteispisteet: 84.9**
+**Yhteispisteet: 89.6**
 
 # Veikattu Sarjataulukko
 | Sijoitus | Joukkue |
