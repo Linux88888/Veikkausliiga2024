@@ -1,10 +1,10 @@
 # Veikkausliiga 2024 - Yleisömäärät, Maalit ja Yli 2.5 Maalia Pelissä
 
-### Veikkausliigan kokonaisyleisömäärä: 331280
-### Veikkausliigan keskiarvoyleisömäärä per peli: 2957.86
-### Veikkausliigan yli 2.5 maalia pelissä: 64.29% (72 / 112)
-### Veikkausliigan kokonaismäärä tehdyt maalit: 347
-### Veikkausliigan keskiarvo maalit per peli: 3.10
+### Veikkausliigan kokonaisyleisömäärä: 335899
+### Veikkausliigan keskiarvoyleisömäärä per peli: 2972.56
+### Veikkausliigan yli 2.5 maalia pelissä: 64.60% (73 / 113)
+### Veikkausliigan kokonaismäärä tehdyt maalit: 351
+### Veikkausliigan keskiarvo maalit per peli: 3.11
 
 ## HJK
 - Kotiotteluiden kokonaisyleisömäärä: 62936
@@ -43,12 +43,12 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: 66.67% (6 / 9)
 
 ## SJK
-- Kotiotteluiden kokonaisyleisömäärä: 25012
+- Kotiotteluiden kokonaisyleisömäärä: 29631
 - Vierasotteluiden kokonaisyleisömäärä: 26927
-- Kotiotteluiden keskiarvo (yleisö): 2779.11
-- Kotiotteluiden keskiarvo (maalit tehty): 2.22
-- Kotiotteluiden keskiarvo (maalit päästetty): 1.67
-- Kotiotteluiden yli 2.5 maalia pelissä: 66.67% (6 / 9)
+- Kotiotteluiden keskiarvo (yleisö): 2963.10
+- Kotiotteluiden keskiarvo (maalit tehty): 2.30
+- Kotiotteluiden keskiarvo (maalit päästetty): 1.60
+- Kotiotteluiden yli 2.5 maalia pelissä: 70.00% (7 / 10)
 - Vierasotteluiden keskiarvo (yleisö): 2991.89
 - Vierasotteluiden keskiarvo (maalit tehty): 1.78
 - Vierasotteluiden keskiarvo (maalit päästetty): 1.33
@@ -92,15 +92,15 @@
 
 ## VPS
 - Kotiotteluiden kokonaisyleisömäärä: 26906
-- Vierasotteluiden kokonaisyleisömäärä: 27634
+- Vierasotteluiden kokonaisyleisömäärä: 32253
 - Kotiotteluiden keskiarvo (yleisö): 2989.56
 - Kotiotteluiden keskiarvo (maalit tehty): 1.89
 - Kotiotteluiden keskiarvo (maalit päästetty): 1.44
 - Kotiotteluiden yli 2.5 maalia pelissä: 66.67% (6 / 9)
-- Vierasotteluiden keskiarvo (yleisö): 3070.44
-- Vierasotteluiden keskiarvo (maalit tehty): 1.33
-- Vierasotteluiden keskiarvo (maalit päästetty): 1.67
-- Vierasotteluiden yli 2.5 maalia pelissä: 88.89% (8 / 9)
+- Vierasotteluiden keskiarvo (yleisö): 3225.30
+- Vierasotteluiden keskiarvo (maalit tehty): 1.30
+- Vierasotteluiden keskiarvo (maalit päästetty): 1.80
+- Vierasotteluiden yli 2.5 maalia pelissä: 90.00% (9 / 10)
 
 ## AC Oulu
 - Kotiotteluiden kokonaisyleisömäärä: 20076
