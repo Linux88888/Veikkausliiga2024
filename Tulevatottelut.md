@@ -1,4 +1,7 @@
-114 - Pe 16.8.2024 - 18:15 - FC Inter - SJK - Kokoonpanot |
+114 - Pe 16.8.2024 - 18:15 - FC Inter - SJK - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
