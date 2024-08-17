@@ -1,20 +1,14 @@
 # Analysoidut Ottelut
 
 ## Tulevat Ottelut
-- FC Inter vs SJK (Pe 16.8.2024 klo 18:15)
 - EIF vs HJK (Su 18.8.2024 klo 16:00)
 - Gnistan vs AC Oulu ( klo 16:00)
 - KuPS vs Ilves ( klo 16:00)
 - IFK Mariehamn vs FC Lahti ( klo 18:30)
 - VPS vs FC Haka ( klo 18:30)
+- Gnistan vs IFK Mariehamn (Ke 21.8.2024 klo 18:00)
 
 ## Ennusteet
-### Ottelu: FC Inter vs SJK
-- Koti joukkueen keskiarvo maalit: 0
-- Vieras joukkueen keskiarvo maalit: 0
-- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
-- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
-
 ### Ottelu: EIF vs HJK
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
@@ -40,6 +34,12 @@
 - Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
 
 ### Ottelu: VPS vs FC Haka
+- Koti joukkueen keskiarvo maalit: 0
+- Vieras joukkueen keskiarvo maalit: 0
+- Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
+- Vierasotteluiden yli 2.5 maalia pelissä: Ei tietoa
+
+### Ottelu: Gnistan vs IFK Mariehamn
 - Koti joukkueen keskiarvo maalit: 0
 - Vieras joukkueen keskiarvo maalit: 0
 - Kotiotteluiden yli 2.5 maalia pelissä: Ei tietoa
