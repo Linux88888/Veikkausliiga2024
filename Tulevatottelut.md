@@ -1,4 +1,7 @@
-120 - Ke 21.8.2024 - 18:00 - Gnistan - IFK Mariehamn - Kokoonpanot |
+120 - Ke 21.8.2024 - 18:00 - Gnistan - IFK Mariehamn - Ennakko |
+        
+        
+          Kokoonpanot |
         
         
           Seuranta - - - -
