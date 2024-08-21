@@ -1,10 +1,3 @@
-120 - Ke 21.8.2024 - 18:00 - Gnistan - IFK Mariehamn - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
 121 - La 24.8.2024 - 17:00 - AC Oulu - FC Haka - Kokoonpanot |
         
         
@@ -22,6 +15,10 @@
         
           Seuranta - - - -
 125 -  - 18:30 - FC Lahti - VPS - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+126 - Ma 26.8.2024 - 19:00 - SJK - Gnistan - Kokoonpanot |
         
         
           Seuranta - - - -
