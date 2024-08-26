@@ -1,10 +1,3 @@
-126 - Ma 26.8.2024 - 19:00 - SJK - Gnistan - Ennakko |
-        
-        
-          Kokoonpanot |
-        
-        
-          Seuranta - - - -
 127 - Su 1.9.2024 - 16:00 - EIF - SJK - Kokoonpanot |
         
         
@@ -22,6 +15,10 @@
         
           Seuranta - - - -
 131 -  - 16:00 - KuPS - FC Inter - Kokoonpanot |
+        
+        
+          Seuranta - - - -
+132 -  - 16:00 - VPS - HJK - Kokoonpanot |
         
         
           Seuranta - - - -
