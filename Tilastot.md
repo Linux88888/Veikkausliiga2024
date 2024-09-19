@@ -25,8 +25,8 @@
 |1. | Gnistan | 23 | 9 | 6 | 8 | 34 | 35 | -1 | 25 | 223 | 15,25 | 257 | 64 | 1 | 31 | 33|
 |2. | FC Inter | 23 | 9 | 5 | 9 | 39 | 30 | 9 | 30 | 233 | 16,74 | 223 | 50 | 2 | 39 | 32|
 |3. | AC Oulu | 23 | 6 | 6 | 11 | 29 | 36 | -7 | 19 | 191 | 15,18 | 318 | 65 | 8 | 38 | 24|
-|4. | IFK Mariehamn | 23 | 5 | 5 | 13 | 21 | 40 | -19 | 11 | 194 | 10,82 | 223 | 54 | 5 | 24 | 20|
-|5. | FC Lahti | 23 | 3 | 10 | 10 | 26 | 41 | -15 | 21 | 198 | 13,13 | 237 | 54 | 1 | 39 | 19|
+|4. | FC Lahti | 24 | 4 | 10 | 10 | 28 | 42 | -14 | 23 | 206 | 13,59 | 256 | 57 | 1 | 41 | 22|
+|5. | IFK Mariehamn | 24 | 5 | 5 | 14 | 22 | 42 | -20 | 11 | 206 | 10,68 | 230 | 56 | 5 | 26 | 20|
 |6. | EIF | 23 | 3 | 5 | 15 | 20 | 52 | -32 | 12 | 181 | 11,05 | 255 | 64 | 4 | 26 | 14|
 
 # Pelaajien pisteet
@@ -36,11 +36,11 @@
 * Odutayo, Colin: 8.8 pistettä
 * Plange, Luke Elliot: 17.5 pistettä
 
-**Kokonaispisteet joukkueille: 5**
+**Kokonaispisteet joukkueille: 4**
 
 **Kokonaispisteet pelaajille: 92.69999999999999**
 
-**Yhteispisteet: 97.69999999999999**
+**Yhteispisteet: 96.69999999999999**
 
 # Veikattu Sarjataulukko
 | Sijoitus | Joukkue |
