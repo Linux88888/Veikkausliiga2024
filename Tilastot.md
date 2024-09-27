@@ -22,15 +22,15 @@
 |5. | FC Haka | 24 | 10 | 5 | 9 | 37 | 38 | -1 | 26 | 213 | 17,37 | 306 | 71 | 3 | 43 | 35|
 |6. | VPS | 24 | 9 | 6 | 9 | 36 | 40 | -4 | 19 | 266 | 13,53 | 274 | 42 | 3 | 36 | 33|
 |# | Joukkue | O | V | T | H | TM | PM | ME | S | L | L% | R | KK | PK | PA | P|
-|1. | Gnistan | 24 | 9 | 6 | 9 | 35 | 38 | -3 | 26 | 236 | 14,83 | 271 | 68 | 1 | 35 | 33|
+|1. | Gnistan | 25 | 10 | 6 | 9 | 36 | 38 | -2 | 26 | 239 | 15,06 | 278 | 70 | 1 | 36 | 36|
 |2. | FC Inter | 24 | 9 | 5 | 10 | 39 | 31 | 8 | 30 | 246 | 15,85 | 230 | 54 | 2 | 39 | 32|
-|3. | AC Oulu | 24 | 7 | 6 | 11 | 30 | 36 | -6 | 20 | 199 | 15,08 | 329 | 66 | 8 | 39 | 27|
+|3. | AC Oulu | 25 | 7 | 6 | 12 | 30 | 37 | -7 | 20 | 204 | 14,71 | 334 | 68 | 8 | 42 | 27|
 |4. | FC Lahti | 24 | 4 | 10 | 10 | 28 | 42 | -14 | 23 | 206 | 13,59 | 256 | 58 | 1 | 41 | 22|
 |5. | IFK Mariehamn | 24 | 5 | 5 | 14 | 22 | 42 | -20 | 11 | 206 | 10,68 | 230 | 56 | 5 | 26 | 20|
 |6. | EIF | 24 | 4 | 5 | 15 | 23 | 53 | -30 | 15 | 193 | 11,92 | 266 | 70 | 4 | 28 | 17|
 
 # Pelaajien pisteet
-* Coffey, Ashley Mark: 23.1 pistettä
+* Coffey, Ashley Mark: 23.3 pistettä
 * Karjalainen, Rasmus: 20.4 pistettä
 * Moreno Ciorciari, Jaime Jose: 28.1 pistettä
 * Odutayo, Colin: 8.8 pistettä
@@ -38,9 +38,9 @@
 
 **Kokonaispisteet joukkueille: 4**
 
-**Kokonaispisteet pelaajille: 97.89999999999999**
+**Kokonaispisteet pelaajille: 98.10000000000001**
 
-**Yhteispisteet: 101.89999999999999**
+**Yhteispisteet: 102.10000000000001**
 
 # Veikattu Sarjataulukko
 | Sijoitus | Joukkue |
