@@ -67,8 +67,6 @@ total_over_2_5_games = 0
 for row in table_rows:
     cells = row.find_all('td')
     if cells and len(cells) > 6:
-        date = cells[1].get_text(strip=True)
-        time = cells[2].get_text(strip=True)
         match_teams = cells[3].get_text(strip=True)
         result_text = cells[5].get_text(strip=True)
         audience_text = cells[6].get_text(strip=True)
@@ -109,7 +107,7 @@ championship_data = get_league_data(url_championship)
 challenger_data = get_league_data(url_challenger)
 
 # Kirjoitetaan tulokset Markdown-tiedostoon
-with open('Yleisö2024.md', 'w') as file:
+with open('Yleisö2024.md', 'w', encoding='utf-8') as file:
     # Kokonaistiedot alkuperäisestä sarjasta
     file.write("# Veikkausliiga 2024 - Yleisömäärät, Maalit ja Yli 2.5 Maalia Pelissä\n\n")
     file.write(f"### Veikkausliigan kokonaisyleisömäärä: {sum(total_audiences)}\n")
@@ -142,8 +140,6 @@ with open('Yleisö2024.md', 'w') as file:
         home_games = len(home_audiences)
         total_home_audience = sum(home_audiences)
         average_home_audience = sum(home_audiences) / home_games if home_games else 0
-        total_home_goals_scored = sum(home_goals_scored)
-        total_home_goals_conceded = sum(home_goals_conceded)
 
         away_audiences = data['Away']['audiences']
         away_goals_scored = data['Away']['goals_scored']
@@ -151,20 +147,20 @@ with open('Yleisö2024.md', 'w') as file:
         away_games = len(away_audiences)
         total_away_audience = sum(away_audiences)
         average_away_audience = sum(away_audiences) / away_games if away_games else 0
-        total_away_goals_scored = sum(away_goals_scored)
-        total_away_goals_conceded = sum(away_goals_conceded)
 
         file.write(f"## {team}\n")
-        file.write(f"### Kotipelit\n")
-        file.write(f"  - Kokonaisyleisömäärä: {total_home_audience}\n")
-        file.write(f"  - Keskiarvoyleisömäärä: {average_home_audience:.2f}\n")
-        file.write(f"  - Kokonaismaalit: {total_home_goals_scored}\n")
-        file.write(f"  - Päästetyt maalit: {total_home_goals_conceded}\n")
-        file.write(f"  - Yli 2.5 maalia peleistä: {data['Home']['over_2_5']}\n\n")
+        file.write(f"### Kotipeleissä:\n")
+        file.write(f"### Yhteensä yleisöä: {total_home_audience}\n")
+        file.write(f"### Keskiarvoyleisömäärä: {average_home_audience:.2f}\n")
+        file.write(f"### Tehdyt maalit: {sum(home_goals_scored)}\n")
+        file.write(f"### Vastustajan tehdyt maalit: {sum(home_goals_conceded)}\n")
+        file.write(f"### Yli 2.5 maalia: {data['Home']['over_2_5']}\n\n")
+        
+        file.write(f"### Vieraspelissä:\n")
+        file.write(f"### Yhteensä yleisöä: {total_away_audience}\n")
+        file.write(f"### Keskiarvoyleisömäärä: {average_away_audience:.2f}\n")
+        file.write(f"### Tehdyt maalit: {sum(away_goals_scored)}\n")
+        file.write(f"### Vastustajan tehdyt maalit: {sum(away_goals_conceded)}\n")
+        file.write(f"### Yli 2.5 maalia: {data['Away']['over_2_5']}\n\n")
 
-        file.write(f"### Vieraspelit\n")
-        file.write(f"  - Kokonaisyleisömäärä: {total_away_audience}\n")
-        file.write(f"  - Keskiarvoyleisömäärä: {average_away_audience:.2f}\n")
-        file.write(f"  - Kokonaismaalit: {total_away_goals_scored}\n")
-        file.write(f"  - Päästetyt maalit: {total_away_goals_conceded}\n")
-        file.write(f"  - Yli 2.5 maalia peleistä: {data['Away']['over_2_5']}\n\n")
+print("Data written to Yleisö2024.md successfully.")
