@@ -32,6 +32,6 @@ jobs:
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
         git add Yleisö2024.md  # Oletetaan, että skripti päivittää tämän tiedoston
-        git commit -m "Update upcoming games" || echo "No changes to commit"
+        git diff --cached --quiet || git commit -m "Update audience data"  # Vain commit jos on muutoksia
         git pull --rebase origin main  # Hakee uusimmat muutokset ja yhdistää ne paikallisesti
         git push
