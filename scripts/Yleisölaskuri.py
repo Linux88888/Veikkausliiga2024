@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 
 # URL-osoitteet mestaruussarjalle ja haastajasarjalle
 url = "https://www.veikkausliiga.com/tilastot/2024/veikkausliiga/ottelut/"
-url_championship = "https://www.veikkausliiga.com/tilastot/2024/veikkausliiga/ottelut/?group=2&team=#stats-wrapper"
-url_challenger = "https://www.veikkausliiga.com/tilastot/2024/veikkausliiga/ottelut/?group=3&team=#stats-wrapper"
+url_championship = "https://www.veikkausliiga.com/tilastot/2024/veikkausliiga/ottelut/?group=2&team=#stats-wrapper"  # URL mestaruussarjalle
+url_challenger = "https://www.veikkausliiga.com/tilastot/2024/veikkausliiga/ottelut/?group=3&team=#stats-wrapper"  # URL haastajasarjalle
 
 teams = ["HJK", "KuPS", "FC Inter", "SJK", "FC Lahti", "Ilves", "FC Haka", "VPS", "AC Oulu", "Gnistan", "IFK Mariehamn", "EIF"]
 
@@ -108,11 +108,6 @@ challenger_data = get_league_data(url_challenger)
 
 # Kirjoitetaan tulokset Markdown-tiedostoon
 with open('Yleisö2024.md', 'w', encoding='utf-8') as file:
-    # Mestaruus- ja haastajasarjan keskiarvot yleisömäärän perusteella
-    file.write("# Mestaruussarjan ja Haastajasarjan Yleisömäärät\n\n")
-    file.write(f"## Mestaruussarjan keskiarvoyleisömäärä: {championship_data['average_audience']:.2f}\n")
-    file.write(f"## Haastajasarjan keskiarvoyleisömäärä: {challenger_data['average_audience']:.2f}\n\n")
-    
     # Kokonaistiedot alkuperäisestä sarjasta
     file.write("# Veikkausliiga 2024 - Yleisömäärät, Maalit ja Yli 2.5 Maalia Pelissä\n\n")
     file.write(f"### Veikkausliigan kokonaisyleisömäärä: {sum(total_audiences)}\n")
@@ -135,7 +130,43 @@ with open('Yleisö2024.md', 'w', encoding='utf-8') as file:
     file.write(f"### Keskiarvoyleisömäärä per peli: {challenger_data['average_audience']:.2f}\n")
     file.write(f"### Kokonaismaalimäärä: {challenger_data['total_goals']}\n")
     file.write(f"### Keskiarvo maalit per peli: {challenger_data['average_goals']:.2f}\n")
-    file.write(f"### Yli 2.5 maalia pelissä: {challenger_data['over_2_5_percent']:.2f}% ({challenger_data['total_games']} peliä)\n")
+    file.write(f"### Yli 2.5 maalia pelissä: {challenger_data['over_2_5_percent']:.2f}% ({challenger_data['total_games']} peliä)\n\n")
+
+    # Joukkuekohtaiset tiedot alkuperäisestä sarjasta
+    for team, data in team_data.items():
+        home_audiences = data['Home']['audiences']
+        home_goals_scored = data['Home']['goals_scored']
+        home_goals_conceded = data['Home']['goals_conceded']
+        home_games = len(home_audiences)
+        total_home_audience = sum(home_audiences)
+        total_home_goals_scored = sum(home_goals_scored)
+        total_home_goals_conceded = sum(home_goals_conceded)
+        total_home_over_2_5 = data['Home']['over_2_5']
+
+        away_audiences = data['Away']['audiences']
+        away_goals_scored = data['Away']['goals_scored']
+        away_goals_conceded = data['Away']['goals_conceded']
+        away_games = len(away_audiences)
+        total_away_audience = sum(away_audiences)
+        total_away_goals_scored = sum(away_goals_scored)
+        total_away_goals_conceded = sum(away_goals_conceded)
+        total_away_over_2_5 = data['Away']['over_2_5']
+
+        file.write(f"## Joukkue: {team}\n")
+        file.write(f"### Kotipelit\n")
+        file.write(f"#### Kokonaisyleisömäärä: {total_home_audience}\n")
+        file.write(f"#### Keskiarvoyleisömäärä per peli: {total_home_audience / home_games:.2f} ({home_games} peliä)\n")
+        file.write(f"#### Tehdyt maalit: {total_home_goals_scored}\n")
+        file.write(f"#### Vastustajalle päästetyt maalit: {total_home_goals_conceded}\n")
+        file.write(f"#### Yli 2.5 maalia kotipelissä: {total_home_over_2_5}\n\n")
+
+        file.write(f"### Vieraissa pelit\n")
+        file.write(f"#### Kokonaisyleisömäärä: {total_away_audience}\n")
+        file.write(f"#### Keskiarvoyleisömäärä per peli: {total_away_audience / away_games:.2f} ({away_games} peliä)\n")
+        file.write(f"#### Tehdyt maalit: {total_away_goals_scored}\n")
+        file.write(f"#### Vastustajalle päästetyt maalit: {total_away_goals_conceded}\n")
+        file.write(f"#### Yli 2.5 maalia vieraspeleissä: {total_away_over_2_5}\n\n")
+
 
 # Tulostetaan onnistumisviesti
 print("Data written to Yleisö2024.md successfully.")
