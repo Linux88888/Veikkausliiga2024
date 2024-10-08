@@ -169,8 +169,3 @@ with open('Yleisö2024.md', 'w', encoding='utf-8') as file:
         file.write(f"#### Tehdyt maalit: {total_away_goals_scored}\n")
         file.write(f"#### Vastustajalle päästetyt maalit: {total_away_goals_conceded}\n")
         file.write(f"#### Yli 2.5 maalia vieraspeleissä: {total_away_over_2_5}\n\n")
-
-
-
-# Tulostetaan onnistumisviesti
-print("Data written to Yleisö2024.md successfully.")
