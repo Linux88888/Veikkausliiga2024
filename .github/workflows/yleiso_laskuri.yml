@@ -33,4 +33,5 @@ jobs:
         git config --global user.name "Your Name"
         git add Yleisö2024.md  # Oletetaan, että skripti päivittää tämän tiedoston
         git commit -m "Update upcoming games" || echo "No changes to commit"
+        git pull --rebase origin main  # Hakee uusimmat muutokset ja yhdistää ne paikallisesti
         git push
