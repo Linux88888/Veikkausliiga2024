@@ -7,16 +7,16 @@
 ### Veikkausliigan keskiarvo maalit per peli: 2.99
 
 ## Mestaruussarja
-### Kokonaisyleisömäärä: 50443
-### Keskiarvoyleisömäärä per peli: 4203.58
-### Kokonaismaalimäärä: 31
-### Yli 2.5 maalia peleissä: 41.67% (12)
+### Kokonaisyleisömäärä: 68896
+### Keskiarvoyleisömäärä per peli: 4593.07
+### Kokonaismaalimäärä: 41
+### Yli 2.5 maalia peleissä: 46.67% (15)
 
 ## Haastajasarja
-### Kokonaisyleisömäärä: 16062
-### Keskiarvoyleisömäärä per peli: 1338.50
-### Kokonaismaalimäärä: 31
-### Yli 2.5 maalia peleissä: 58.33% (12)
+### Kokonaisyleisömäärä: 22046
+### Keskiarvoyleisömäärä per peli: 1469.73
+### Kokonaismaalimäärä: 39
+### Yli 2.5 maalia peleissä: 60.00% (15)
 
 ## Joukkue: HJK
 ### Kotipelit
