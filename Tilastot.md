@@ -30,23 +30,23 @@
 |6. | EIF | 27 | 4 | 7 | 16 | 24 | 57 | -33 | 16 | 218 | 11,01 | 305 | 77 | 6 | 29 | 19|
 |# | Joukkue | O | V | T | H | TM | PM | ME | S | L | L% | R | KK | PK | PA | P|
 |1. | FC Inter | 23 | 9 | 5 | 9 | 39 | 30 | 9 | 30 | 229 | 17,03 | 231 | 54 | 2 | 39 | 0|
-|2. | SJK | 23 | 11 | 6 | 6 | 42 | 34 | 8 | 28 | 287 | 14,63 | 290 | 53 | 0 | 45 | 0|
-|3. | FC Haka | 25 | 10 | 7 | 8 | 39 | 37 | 2 | 29 | 217 | 17,97 | 324 | 71 | 2 | 49 | 0|
+|2. | SJK | 24 | 11 | 7 | 6 | 44 | 36 | 8 | 30 | 303 | 14,52 | 309 | 56 | 0 | 45 | 0|
+|3. | FC Haka | 26 | 10 | 8 | 8 | 41 | 39 | 2 | 30 | 229 | 17,90 | 334 | 73 | 2 | 52 | 0|
 |4. | Gnistan | 24 | 9 | 7 | 8 | 35 | 36 | -1 | 26 | 226 | 15,49 | 277 | 68 | 1 | 32 | 0|
 |5. | VPS | 23 | 9 | 5 | 9 | 34 | 37 | -3 | 18 | 244 | 13,93 | 263 | 39 | 4 | 35 | 0|
 
 # Pelaajien pisteet
 * Coffey, Ashley Mark: 28.2 pistettä
 * Karjalainen, Rasmus: 20.6 pistettä
-* Moreno Ciorciari, Jaime Jose: 30.5 pistettä
+* Moreno Ciorciari, Jaime Jose: 31.3 pistettä
 * Odutayo, Colin: 8.8 pistettä
 * Plange, Luke Elliot: 17.7 pistettä
 
 **Kokonaispisteet joukkueille: 5**
 
-**Kokonaispisteet pelaajille: 105.8**
+**Kokonaispisteet pelaajille: 106.6**
 
-**Yhteispisteet: 110.8**
+**Yhteispisteet: 111.6**
 
 # Veikattu Sarjataulukko
 | Sijoitus | Joukkue |
